@@ -29,7 +29,7 @@ class DataAnalystAgent:
         # Initialize LLMs for different tasks
         self.llm = ChatMistralAI(
             api_key=self.config.MISTRAL_API_KEY,
-            **self.config.get_model_config("fast")
+            **self.config.get_model_config("default")
         )
         
         self.code_llm = ChatMistralAI(
