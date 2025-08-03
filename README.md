@@ -191,7 +191,7 @@ The agent includes robust error handling:
 
 ## License
 
-This project is licensed under the MIT License.
+No License
 
 ## Support
 
