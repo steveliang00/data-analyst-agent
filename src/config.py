@@ -59,8 +59,8 @@ class Config:
             },
             "code": {
                 "model": cls.MISTRAL_CODE_MODEL,
-                "temperature": 0.5,
-                "max_tokens": 1500,
+                "temperature": 0.7,
+                "max_tokens": 3000,
             }
         }
         
