@@ -1,0 +1,201 @@
+employee_id,first_name,last_name,department,position,hire_date,salary,age,years_experience,education_level,performance_rating,is_remote,years_at_company
+EMP-0001,Mike,Johnson,Marketing,Senior Manager,2018-04-01,40338.0,47,4,High School,3.9,False,7.3
+EMP-0002,Mike,Brown,Marketing,Analyst,2021-09-30,129741.0,33,2,Master's,2.9,True,3.8
+EMP-0003,Chris,Anderson,Engineering,Analyst,2023-05-02,73012.0,51,8,Bachelor's,3.7,False,2.3
+EMP-0004,Jane,Miller,Sales,Manager,2023-03-26,147309.0,22,8,PhD,4.9,True,2.4
+EMP-0005,Sarah,Smith,Sales,Senior Manager,2023-05-01,70143.0,46,5,Master's,4.6,False,2.3
+EMP-0006,Kate,Thomas,Operations,Analyst,2019-11-20,94470.0,37,14,Bachelor's,2.9,False,5.7
+EMP-0007,Chris,Davis,Marketing,Analyst,2018-04-03,87996.0,31,14,Master's,2.8,False,7.3
+EMP-0008,Jane,Davis,Operations,Analyst,2022-04-12,128814.0,22,14,Master's,4.4,True,3.3
+EMP-0009,John,Davis,Marketing,Specialist,2019-08-16,134759.0,38,17,Master's,4.4,False,6.0
+EMP-0010,Jane,Johnson,Sales,Senior Manager,2019-09-29,101364.0,40,5,Master's,3.1,False,5.8
+EMP-0011,Kate,Taylor,Engineering,Analyst,2021-09-21,102907.0,50,7,Master's,2.9,True,3.9
+EMP-0012,John,Moore,Sales,Associate,2023-04-13,102183.0,42,0,Bachelor's,3.8,False,2.3
+EMP-0013,John,Davis,Operations,Associate,2021-08-22,85113.0,28,11,High School,3.8,False,3.9
+EMP-0014,Kate,Johnson,Engineering,Analyst,2020-07-21,86138.0,22,7,Bachelor's,3.4,False,5.0
+EMP-0015,Sarah,Taylor,Engineering,Senior Analyst,2020-01-25,72369.0,40,3,Bachelor's,3.9,False,5.5
+EMP-0016,David,Brown,Sales,Specialist,2019-05-23,40000.0,32,18,Bachelor's,3.0,True,6.2
+EMP-0017,John,Moore,Sales,Senior Manager,2018-05-14,40000.0,40,14,Bachelor's,2.9,False,7.2
+EMP-0018,John,Miller,Finance,Specialist,2021-02-23,55405.0,38,2,Bachelor's,3.2,False,4.4
+EMP-0019,David,Thomas,Engineering,Specialist,2021-12-15,59394.0,35,2,Master's,3.5,False,3.6
+EMP-0020,Jane,Anderson,Operations,Manager,2021-05-10,85026.0,22,11,Bachelor's,3.6,True,4.2
+EMP-0021,Amy,Thomas,Marketing,Specialist,2019-06-19,133580.0,30,5,Master's,2.6,False,6.1
+EMP-0022,Sarah,Wilson,Operations,Senior Analyst,2021-06-21,78052.0,37,4,Master's,3.2,True,4.1
+EMP-0023,Mike,Taylor,Marketing,Associate,2023-02-06,114146.0,29,9,Master's,4.2,False,2.5
+EMP-0024,David,Anderson,Finance,Senior Manager,2021-04-29,81394.0,40,2,High School,3.3,False,4.3
+EMP-0025,Amy,Miller,Sales,Manager,2022-05-21,123630.0,46,5,Master's,3.5,True,3.2
+EMP-0026,Mike,Thomas,Sales,Associate,2019-10-22,103321.0,22,8,Master's,2.6,True,5.8
+EMP-0027,David,Brown,Sales,Analyst,2023-05-05,51505.0,38,11,Bachelor's,4.3,False,2.2
+EMP-0028,Tom,Wilson,HR,Analyst,2018-01-10,80272.0,25,9,Master's,3.6,False,7.6
+EMP-0029,John,Davis,Sales,Manager,2019-12-01,134079.0,44,8,Master's,2.9,False,5.7
+EMP-0030,Amy,Davis,Engineering,Senior Manager,2023-10-30,32000.0,26,16,High School,2.9,True,1.8
+EMP-0031,Kate,Johnson,Operations,Manager,2020-04-05,40000.0,44,3,Bachelor's,3.4,False,5.3
+EMP-0032,Sarah,Taylor,Operations,Manager,2023-05-06,115269.0,33,0,Bachelor's,3.5,True,2.2
+EMP-0033,David,Anderson,Sales,Senior Analyst,2021-01-16,69086.0,22,7,Bachelor's,3.7,False,4.5
+EMP-0034,Chris,Miller,Marketing,Analyst,2018-04-20,79761.0,55,9,High School,3.1,True,7.3
+EMP-0035,Jane,Taylor,Engineering,Analyst,2020-07-31,150181.0,42,1,Master's,3.0,False,5.0
+EMP-0036,Lisa,Taylor,Engineering,Associate,2022-02-26,142823.0,38,6,Master's,3.6,False,3.4
+EMP-0037,Chris,Taylor,Sales,Senior Analyst,2022-02-15,93947.0,42,12,Bachelor's,2.2,False,3.5
+EMP-0038,Mike,Miller,Sales,Analyst,2018-07-15,102361.0,35,11,Master's,2.3,False,7.1
+EMP-0039,Jane,Smith,Finance,Senior Analyst,2022-08-10,50791.0,36,4,Bachelor's,3.6,True,3.0
+EMP-0040,Tom,Smith,Finance,Senior Manager,2022-06-29,89892.0,38,3,Bachelor's,3.9,False,3.1
+EMP-0041,Sarah,Anderson,HR,Senior Analyst,2018-08-02,82015.0,30,10,Bachelor's,2.9,True,7.0
+EMP-0042,Lisa,Johnson,Operations,Analyst,2019-06-01,58715.0,47,12,Bachelor's,4.3,False,6.2
+EMP-0043,John,Smith,Sales,Specialist,2019-05-26,40000.0,48,1,Bachelor's,3.7,True,6.2
+EMP-0044,Mike,Wilson,Engineering,Manager,2022-11-23,111991.0,34,7,Bachelor's,3.2,True,2.7
+EMP-0045,Chris,Miller,Engineering,Senior Manager,2020-08-17,96777.0,39,7,Master's,4.1,True,5.0
+EMP-0046,Mike,Wilson,Sales,Specialist,2019-04-13,44053.0,28,4,Bachelor's,3.7,False,6.3
+EMP-0047,David,Miller,Engineering,Senior Manager,2020-08-01,71394.0,46,9,Bachelor's,3.0,True,5.0
+EMP-0048,David,Smith,Engineering,Analyst,2019-04-30,93514.0,22,6,Master's,3.2,True,6.3
+EMP-0049,Chris,Taylor,Marketing,Specialist,2019-05-23,76434.0,24,11,Bachelor's,3.5,False,6.2
+EMP-0050,Sarah,Johnson,Sales,Senior Analyst,2021-03-09,102254.0,28,11,Bachelor's,3.7,True,4.4
+EMP-0051,John,Brown,Marketing,Specialist,2023-08-28,135175.0,32,1,Master's,4.8,False,1.9
+EMP-0052,Chris,Brown,Engineering,Manager,2018-10-28,51105.0,54,0,Bachelor's,1.7,False,6.8
+EMP-0053,David,Taylor,Marketing,Analyst,2023-08-15,71811.0,22,11,Master's,1.7,False,2.0
+EMP-0054,Amy,Taylor,Engineering,Senior Manager,2019-12-07,45580.0,36,14,Bachelor's,4.2,True,5.7
+EMP-0055,Chris,Davis,Engineering,Senior Manager,2023-04-06,89639.0,42,12,Bachelor's,3.2,True,2.3
+EMP-0056,Amy,Moore,HR,Senior Manager,2019-11-27,56678.0,28,11,Bachelor's,5.0,False,5.7
+EMP-0057,Jane,Johnson,Marketing,Senior Manager,2023-01-01,91343.0,42,5,Master's,4.0,False,2.6
+EMP-0058,Lisa,Anderson,Sales,Senior Manager,2020-07-28,131872.0,29,9,Master's,3.9,True,5.0
+EMP-0059,Amy,Wilson,Sales,Senior Analyst,2020-02-23,58820.0,36,20,Master's,4.3,True,5.4
+EMP-0060,Kate,Johnson,Marketing,Manager,2021-08-13,40000.0,22,9,Bachelor's,3.0,False,4.0
+EMP-0061,Mike,Moore,Operations,Senior Analyst,2022-09-28,63257.0,28,14,Bachelor's,2.6,True,2.8
+EMP-0062,David,Miller,Marketing,Specialist,2023-06-07,61418.0,27,0,Master's,2.5,False,2.2
+EMP-0063,Tom,Thomas,Engineering,Manager,2019-02-03,47055.0,54,9,High School,3.0,False,6.5
+EMP-0064,Jane,Smith,HR,Senior Analyst,2018-05-09,50021.0,65,8,Bachelor's,3.5,True,7.2
+EMP-0065,Mike,Davis,HR,Analyst,2023-12-06,114145.0,32,6,Master's,3.0,True,1.7
+EMP-0066,Jane,Johnson,Engineering,Senior Manager,2023-09-24,82245.0,38,11,Bachelor's,3.5,False,1.9
+EMP-0067,Jane,Davis,Finance,Analyst,2019-02-09,94059.0,22,11,Bachelor's,2.3,False,6.5
+EMP-0068,Sarah,Taylor,Sales,Manager,2018-06-10,61030.0,22,7,Bachelor's,3.9,True,7.1
+EMP-0069,Lisa,Taylor,HR,Manager,2023-03-27,105751.0,22,10,Master's,2.6,False,2.4
+EMP-0070,Kate,Taylor,Engineering,Associate,2018-04-13,56766.0,39,13,Bachelor's,2.6,False,7.3
+EMP-0071,John,Miller,Sales,Senior Manager,2023-05-31,68801.0,26,13,High School,5.0,True,2.2
+EMP-0072,Tom,Davis,Operations,Senior Manager,2021-05-07,86201.0,45,4,Bachelor's,3.2,False,4.2
+EMP-0073,Jane,Moore,Marketing,Manager,2022-03-31,92355.0,42,20,Bachelor's,3.1,False,3.3
+EMP-0074,Chris,Davis,HR,Associate,2019-04-02,62322.0,30,11,Master's,3.4,False,6.3
+EMP-0075,Sarah,Miller,Marketing,Senior Manager,2019-11-01,119708.0,26,5,Bachelor's,3.4,False,5.8
+EMP-0076,Sarah,Johnson,Engineering,Senior Manager,2023-01-10,106082.0,32,7,PhD,4.6,False,2.6
+EMP-0077,Lisa,Miller,Sales,Analyst,2022-09-15,148011.0,54,2,PhD,4.6,False,2.9
+EMP-0078,Kate,Thomas,Finance,Senior Analyst,2022-03-05,40000.0,28,3,Bachelor's,3.2,False,3.4
+EMP-0079,Amy,Johnson,Marketing,Associate,2023-07-15,94875.0,22,9,Master's,2.5,False,2.1
+EMP-0080,Kate,Davis,Engineering,Specialist,2023-05-13,147490.0,34,0,PhD,3.2,True,2.2
+EMP-0081,Mike,Thomas,Engineering,Manager,2023-01-14,76901.0,36,5,PhD,3.6,False,2.6
+EMP-0082,Sarah,Johnson,Sales,Senior Analyst,2023-02-20,60967.0,37,5,Bachelor's,3.0,False,2.5
+EMP-0083,Sarah,Miller,Operations,Analyst,2021-12-15,80544.0,26,7,Bachelor's,3.3,False,3.6
+EMP-0084,Sarah,Moore,Sales,Manager,2018-07-21,114124.0,34,0,Bachelor's,2.4,True,7.0
+EMP-0085,Tom,Johnson,Engineering,Manager,2018-07-21,112189.0,29,8,Master's,4.5,False,7.0
+EMP-0086,Chris,Miller,Sales,Analyst,2022-04-10,99934.0,53,10,Bachelor's,3.0,False,3.3
+EMP-0087,Kate,Smith,Engineering,Specialist,2019-11-26,40000.0,29,9,Bachelor's,3.1,False,5.7
+EMP-0088,Amy,Taylor,Sales,Specialist,2022-12-29,40000.0,31,0,Bachelor's,4.3,True,2.6
+EMP-0089,Chris,Smith,Engineering,Senior Manager,2018-02-21,65188.0,46,15,Bachelor's,3.1,False,7.4
+EMP-0090,Sarah,Davis,Finance,Specialist,2019-02-01,98052.0,22,15,Bachelor's,3.1,False,6.5
+EMP-0091,Kate,Smith,Sales,Senior Manager,2022-06-04,76577.0,38,6,Bachelor's,2.2,True,3.2
+EMP-0092,Chris,Moore,Engineering,Senior Analyst,2021-09-25,78766.0,34,16,High School,4.4,False,3.9
+EMP-0093,Chris,Brown,Operations,Specialist,2022-03-09,55254.0,26,7,Bachelor's,3.4,False,3.4
+EMP-0094,Chris,Taylor,Sales,Associate,2023-07-31,52781.0,23,6,Bachelor's,4.5,True,2.0
+EMP-0095,Jane,Miller,Operations,Senior Manager,2021-05-28,87239.0,43,2,Bachelor's,3.7,False,4.2
+EMP-0096,Sarah,Johnson,Engineering,Associate,2022-02-09,102486.0,43,7,Bachelor's,3.4,False,3.5
+EMP-0097,David,Smith,HR,Manager,2022-06-30,97627.0,38,7,Bachelor's,2.4,False,3.1
+EMP-0098,Sarah,Smith,Sales,Analyst,2022-11-23,74499.0,22,6,Bachelor's,2.9,False,2.7
+EMP-0099,Jane,Brown,Sales,Senior Analyst,2020-09-06,97740.0,39,9,Master's,2.9,False,4.9
+EMP-0100,John,Moore,Engineering,Senior Manager,2020-08-22,44018.0,27,9,Bachelor's,3.7,False,4.9
+EMP-0101,Lisa,Miller,Engineering,Senior Analyst,2019-09-05,112590.0,42,0,Master's,3.9,False,5.9
+EMP-0102,Tom,Thomas,Sales,Associate,2021-03-30,79092.0,36,12,Bachelor's,4.9,False,4.3
+EMP-0103,Chris,Johnson,Operations,Specialist,2022-11-11,99931.0,40,11,Master's,3.7,False,2.7
+EMP-0104,Tom,Miller,Marketing,Specialist,2022-06-20,111395.0,46,7,Bachelor's,4.0,False,3.1
+EMP-0105,Kate,Davis,Sales,Analyst,2020-04-28,154896.0,41,7,Master's,3.6,False,5.3
+EMP-0106,Jane,Moore,Marketing,Associate,2020-07-27,83222.0,33,6,High School,4.3,False,5.0
+EMP-0107,John,Wilson,Engineering,Senior Analyst,2018-02-10,52000.0,54,5,Master's,5.0,False,7.5
+EMP-0108,Sarah,Taylor,Engineering,Manager,2021-06-06,73240.0,43,3,PhD,3.1,True,4.2
+EMP-0109,Jane,Johnson,Sales,Specialist,2020-06-07,35609.0,36,2,High School,3.7,True,5.2
+EMP-0110,Sarah,Moore,Finance,Manager,2022-07-06,137493.0,22,13,Master's,2.8,False,3.1
+EMP-0111,David,Smith,Sales,Associate,2023-04-20,85473.0,26,17,Bachelor's,3.0,False,2.3
+EMP-0112,Amy,Davis,Engineering,Analyst,2023-12-13,52000.0,52,12,Master's,3.5,False,1.6
+EMP-0113,Chris,Johnson,Operations,Associate,2021-07-27,127877.0,36,5,Master's,3.2,True,4.0
+EMP-0114,Jane,Davis,Finance,Senior Manager,2022-09-27,80132.0,28,8,Master's,4.9,True,2.9
+EMP-0115,David,Smith,Sales,Analyst,2020-11-10,80746.0,32,3,Bachelor's,3.0,False,4.7
+EMP-0116,Sarah,Anderson,Operations,Analyst,2019-07-27,86795.0,42,6,Bachelor's,3.1,True,6.0
+EMP-0117,Sarah,Miller,Operations,Associate,2023-04-23,79479.0,46,11,Master's,3.5,False,2.3
+EMP-0118,Amy,Johnson,Sales,Analyst,2021-07-31,147434.0,30,2,Master's,2.9,True,4.0
+EMP-0119,Chris,Wilson,Marketing,Manager,2019-01-27,129394.0,44,0,Bachelor's,2.3,False,6.5
+EMP-0120,Tom,Davis,Sales,Senior Analyst,2023-04-22,152310.0,38,10,PhD,3.1,False,2.3
+EMP-0121,Chris,Brown,Engineering,Manager,2019-06-16,94636.0,39,3,Bachelor's,3.0,False,6.1
+EMP-0122,David,Brown,Engineering,Analyst,2020-01-18,123230.0,22,5,Bachelor's,3.7,True,5.5
+EMP-0123,David,Smith,Engineering,Senior Analyst,2023-06-09,68053.0,48,2,Bachelor's,3.8,False,2.2
+EMP-0124,Amy,Brown,Engineering,Senior Manager,2020-07-22,40879.0,31,6,Bachelor's,4.3,False,5.0
+EMP-0125,John,Smith,Sales,Associate,2023-04-10,127613.0,22,6,Master's,4.8,True,2.3
+EMP-0126,John,Brown,Engineering,Specialist,2018-01-03,117798.0,28,9,Master's,3.7,True,7.6
+EMP-0127,Kate,Taylor,Operations,Analyst,2020-03-27,55568.0,35,6,High School,2.8,False,5.4
+EMP-0128,Tom,Thomas,Engineering,Associate,2023-11-02,131719.0,22,5,Master's,3.3,False,1.8
+EMP-0129,Tom,Smith,Marketing,Specialist,2023-08-06,40000.0,56,13,Bachelor's,3.8,True,2.0
+EMP-0130,David,Davis,Sales,Senior Analyst,2019-01-03,61303.0,32,5,Bachelor's,3.8,True,6.6
+EMP-0131,Tom,Thomas,Sales,Associate,2018-12-26,70409.0,33,8,Bachelor's,3.3,True,6.6
+EMP-0132,Chris,Taylor,Sales,Specialist,2023-01-05,86050.0,31,12,Master's,4.7,False,2.6
+EMP-0133,Jane,Smith,Finance,Analyst,2023-03-09,44560.0,32,11,Bachelor's,3.4,True,2.4
+EMP-0134,Chris,Miller,Engineering,Analyst,2022-08-23,62381.0,42,12,Bachelor's,2.8,False,2.9
+EMP-0135,Tom,Wilson,Engineering,Manager,2020-03-05,127011.0,28,9,Master's,3.6,False,5.4
+EMP-0136,Amy,Moore,Operations,Associate,2023-05-20,106079.0,30,12,Master's,3.6,False,2.2
+EMP-0137,Kate,Smith,Finance,Associate,2023-02-14,82286.0,29,6,Bachelor's,4.3,False,2.5
+EMP-0138,Jane,Taylor,Engineering,Manager,2022-06-23,172682.0,41,14,PhD,3.4,False,3.1
+EMP-0139,Amy,Anderson,Sales,Manager,2022-02-21,116630.0,28,8,PhD,4.3,False,3.4
+EMP-0140,Jane,Anderson,Engineering,Specialist,2020-08-20,154739.0,41,15,Master's,3.9,True,5.0
+EMP-0141,Amy,Johnson,Engineering,Associate,2023-02-14,169836.0,55,12,Master's,4.9,False,2.5
+EMP-0142,Kate,Smith,Finance,Senior Analyst,2019-08-04,70479.0,40,12,Bachelor's,2.8,True,6.0
+EMP-0143,Tom,Johnson,Sales,Senior Analyst,2021-12-18,68894.0,32,11,High School,4.3,False,3.6
+EMP-0144,Amy,Taylor,Marketing,Senior Manager,2022-09-06,135200.0,28,10,PhD,3.9,True,2.9
+EMP-0145,Jane,Miller,Operations,Manager,2020-01-12,52510.0,31,6,High School,2.8,True,5.6
+EMP-0146,Sarah,Davis,Engineering,Senior Analyst,2018-04-10,135166.0,43,4,Master's,3.0,True,7.3
+EMP-0147,Jane,Smith,Engineering,Analyst,2023-02-01,55215.0,50,3,High School,3.9,False,2.5
+EMP-0148,Tom,Wilson,Engineering,Analyst,2018-07-01,111681.0,35,10,Bachelor's,3.5,False,7.1
+EMP-0149,Amy,Anderson,HR,Manager,2023-05-31,80989.0,31,11,Bachelor's,3.5,False,2.2
+EMP-0150,Lisa,Wilson,Operations,Specialist,2022-10-19,117982.0,29,6,PhD,2.8,False,2.8
+EMP-0151,Jane,Thomas,Sales,Analyst,2020-10-18,71508.0,43,16,Bachelor's,3.5,True,4.8
+EMP-0152,Mike,Davis,Sales,Senior Manager,2021-09-11,55361.0,34,7,Bachelor's,3.7,True,3.9
+EMP-0153,Lisa,Miller,Sales,Analyst,2018-02-27,76528.0,50,7,Bachelor's,3.5,True,7.4
+EMP-0154,Mike,Johnson,Finance,Specialist,2018-03-25,101509.0,55,4,Master's,4.0,False,7.4
+EMP-0155,Mike,Anderson,Marketing,Senior Manager,2022-05-30,64000.0,29,4,PhD,3.2,True,3.2
+EMP-0156,Kate,Smith,Engineering,Associate,2018-03-09,52185.0,50,9,High School,2.1,False,7.4
+EMP-0157,Sarah,Thomas,HR,Analyst,2019-11-24,82512.0,39,2,Master's,2.5,False,5.7
+EMP-0158,Mike,Johnson,Engineering,Analyst,2021-04-25,53920.0,47,7,Bachelor's,3.5,True,4.3
+EMP-0159,Chris,Miller,Engineering,Senior Analyst,2018-06-15,40000.0,24,12,Bachelor's,4.3,True,7.1
+EMP-0160,Amy,Anderson,Marketing,Associate,2020-06-26,54158.0,37,8,Bachelor's,3.7,False,5.1
+EMP-0161,Kate,Anderson,Engineering,Manager,2018-07-25,131488.0,23,7,Master's,2.9,False,7.0
+EMP-0162,Jane,Wilson,HR,Manager,2023-10-05,134740.0,46,10,Master's,4.0,True,1.8
+EMP-0163,Sarah,Moore,Sales,Senior Manager,2018-10-02,196273.0,28,10,Master's,3.7,True,6.8
+EMP-0164,Tom,Anderson,Engineering,Analyst,2023-12-12,81579.0,29,11,Master's,3.0,False,1.6
+EMP-0165,Sarah,Taylor,Operations,Analyst,2022-07-15,84877.0,22,7,Bachelor's,3.8,False,3.1
+EMP-0166,Amy,Thomas,Engineering,Specialist,2021-01-10,89493.0,31,7,Bachelor's,2.2,False,4.6
+EMP-0167,Kate,Brown,Marketing,Analyst,2018-08-29,54315.0,45,3,Bachelor's,3.7,False,6.9
+EMP-0168,Kate,Smith,Engineering,Senior Analyst,2021-09-17,53990.0,31,1,Bachelor's,3.9,False,3.9
+EMP-0169,Sarah,Smith,HR,Manager,2023-04-04,40000.0,56,12,Bachelor's,4.1,False,2.3
+EMP-0170,Sarah,Thomas,Engineering,Analyst,2019-08-02,73503.0,33,7,Bachelor's,2.1,True,6.0
+EMP-0171,Lisa,Thomas,Engineering,Associate,2019-08-28,53643.0,53,2,Bachelor's,2.9,False,5.9
+EMP-0172,Chris,Miller,Marketing,Manager,2018-01-28,35536.0,24,8,High School,4.3,False,7.5
+EMP-0173,John,Davis,HR,Specialist,2020-06-26,80735.0,28,22,Master's,3.4,True,5.1
+EMP-0174,Tom,Miller,Marketing,Specialist,2020-12-27,54367.0,37,0,Master's,3.1,False,4.6
+EMP-0175,Amy,Miller,Engineering,Associate,2021-11-11,75237.0,27,12,Bachelor's,2.7,True,3.7
+EMP-0176,Amy,Brown,Engineering,Associate,2022-10-11,83386.0,42,0,Master's,4.3,False,2.8
+EMP-0177,David,Brown,Sales,Specialist,2018-01-03,40000.0,39,2,Bachelor's,1.3,False,7.6
+EMP-0178,David,Taylor,Engineering,Senior Manager,2023-07-20,75420.0,42,3,Master's,3.6,False,2.0
+EMP-0179,Lisa,Davis,Finance,Senior Manager,2021-07-29,122470.0,36,6,Bachelor's,3.6,False,4.0
+EMP-0180,John,Johnson,Engineering,Senior Analyst,2019-05-19,93325.0,36,12,PhD,4.1,False,6.2
+EMP-0181,Tom,Davis,Marketing,Senior Analyst,2022-11-20,61218.0,28,19,Bachelor's,2.9,False,2.7
+EMP-0182,Kate,Thomas,Operations,Specialist,2023-02-18,40000.0,31,8,Bachelor's,2.9,False,2.5
+EMP-0183,Mike,Davis,Operations,Senior Analyst,2018-11-22,81055.0,47,15,Bachelor's,3.9,False,6.7
+EMP-0184,Lisa,Moore,Engineering,Senior Manager,2021-12-04,103159.0,30,15,Bachelor's,2.9,False,3.7
+EMP-0185,Jane,Brown,Engineering,Analyst,2019-12-23,103434.0,43,4,Bachelor's,4.2,True,5.6
+EMP-0186,Lisa,Davis,Operations,Manager,2019-06-11,98397.0,37,12,Master's,4.6,True,6.1
+EMP-0187,Kate,Johnson,Finance,Manager,2020-07-04,129407.0,45,9,Master's,2.3,False,5.1
+EMP-0188,Mike,Thomas,Operations,Senior Manager,2019-11-08,69291.0,42,15,Bachelor's,3.4,False,5.7
+EMP-0189,David,Anderson,Sales,Senior Analyst,2023-01-17,120946.0,44,7,Bachelor's,3.3,True,2.5
+EMP-0190,Sarah,Smith,HR,Senior Analyst,2022-10-20,104530.0,44,4,Master's,2.6,True,2.8
+EMP-0191,John,Brown,Engineering,Specialist,2023-08-30,80497.0,40,7,Bachelor's,4.5,True,1.9
+EMP-0192,Sarah,Davis,Sales,Manager,2021-06-12,88003.0,35,13,Bachelor's,4.2,False,4.1
+EMP-0193,Amy,Taylor,Finance,Analyst,2022-07-29,40000.0,45,0,Bachelor's,3.8,True,3.0
+EMP-0194,Amy,Thomas,Engineering,Analyst,2021-04-17,57344.0,22,10,Bachelor's,3.3,False,4.3
+EMP-0195,Mike,Brown,Finance,Specialist,2023-10-07,64420.0,29,6,Bachelor's,3.8,False,1.8
+EMP-0196,Lisa,Taylor,Sales,Analyst,2018-01-09,112485.0,22,0,Master's,4.0,False,7.6
+EMP-0197,Jane,Thomas,Sales,Associate,2023-09-12,63244.0,33,6,Bachelor's,3.5,True,1.9
+EMP-0198,Amy,Taylor,Sales,Senior Manager,2022-10-16,145449.0,31,10,Master's,4.6,True,2.8
+EMP-0199,Lisa,Johnson,Operations,Manager,2019-03-25,80095.0,22,3,Bachelor's,3.5,False,6.4
+EMP-0200,Kate,Wilson,Sales,Associate,2020-12-09,119677.0,29,13,Master's,2.7,False,4.6

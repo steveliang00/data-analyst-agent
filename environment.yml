@@ -146,4 +146,5 @@ dependencies:
       - urllib3==2.5.0
       - xxhash==3.5.0
       - zstandard==0.23.0
+      - langchain-mistralai==0.3.5
 prefix: /opt/miniconda3/envs/data-analyst-agent

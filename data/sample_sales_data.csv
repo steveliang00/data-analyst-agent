@@ -1,0 +1,501 @@
+order_id,date,product_category,product_name,price,quantity,customer_age,customer_gender,sales_channel,payment_method,discount_applied,customer_satisfaction,discount_amount,total_amount,month,season,day_of_week,is_weekend
+ORD-000447,2023-01-01,Electronics,Sneakers,68.71,9,49,Female,Mobile App,Credit Card,True,4.1,85.52,532.87,1,Winter,Sunday,True
+ORD-000264,2023-01-02,Sports,Decor Item,13.61,4,65,Male,In-Store,PayPal,True,3.5,3.33,51.11,1,Winter,Monday,False
+ORD-000207,2023-01-02,Electronics,Smart Watch,7.14,7,20,Female,In-Store,Credit Card,True,3.6,12.44,37.54,1,Winter,Monday,False
+ORD-000064,2023-01-02,Home & Garden,Wireless Headphones,12.43,3,49,Female,In-Store,Cash,False,3.6,0.0,37.29,1,Winter,Monday,False
+ORD-000497,2023-01-04,Home & Garden,Tablet,21.04,3,55,Female,Online,PayPal,True,,9.89,53.23,1,Winter,Wednesday,False
+ORD-000326,2023-01-04,Sports,Storage Box,16.18,3,42,Female,Online,Credit Card,True,3.5,11.68,36.86,1,Winter,Wednesday,False
+ORD-000129,2023-01-05,Home & Garden,Furniture,44.59,5,66,Female,Online,Debit Card,False,3.7,0.0,222.95,1,Winter,Thursday,False
+ORD-000416,2023-01-05,Electronics,Running Shoes,73.81,7,20,Female,Online,PayPal,False,5.0,0.0,516.67,1,Winter,Thursday,False
+ORD-000335,2023-01-06,Electronics,Tennis Racket,95.6,4,48,Female,In-Store,Debit Card,False,5.0,0.0,382.4,1,Winter,Friday,False
+ORD-000098,2023-01-09,Clothing,Storage Box,14.94,5,31,Male,Online,Cash,False,,0.0,74.7,1,Winter,Monday,False
+ORD-000270,2023-01-09,Home & Garden,Hair Care,17.67,4,27,Male,In-Store,Debit Card,True,4.1,16.93,53.75,1,Winter,Monday,False
+ORD-000485,2023-01-10,Home & Garden,Tennis Racket,70.84,2,44,Female,In-Store,Credit Card,False,3.8,0.0,141.68,1,Winter,Tuesday,False
+ORD-000152,2023-01-13,Beauty,Programming Book,31.02,3,30,Male,In-Store,PayPal,False,3.7,0.0,93.06,1,Winter,Friday,False
+ORD-000379,2023-01-13,Books,History Book,8.98,6,52,Female,Online,Debit Card,True,5.0,10.53,43.35,1,Winter,Friday,False
+ORD-000051,2023-01-14,Sports,Hair Care,50.14,8,65,Female,Online,Credit Card,False,,0.0,401.12,1,Winter,Saturday,True
+ORD-000135,2023-01-15,Sports,Gaming Mouse,179.94,6,35,Female,Online,PayPal,False,3.6,0.0,1079.64,1,Winter,Sunday,True
+ORD-000093,2023-01-15,Sports,Furniture,10.58,9,32,Female,Mobile App,Debit Card,True,4.3,9.81,85.41,1,Winter,Sunday,True
+ORD-000498,2023-01-16,Electronics,Gaming Mouse,24.25,4,35,Female,Online,Cash,False,3.8,0.0,97.0,1,Winter,Monday,False
+ORD-000330,2023-01-17,Beauty,Makeup Kit,62.61,9,35,Female,Mobile App,Credit Card,False,3.6,0.0,563.49,1,Winter,Tuesday,False
+ORD-000353,2023-01-18,Sports,Smart Watch,49.51,1,46,Female,In-Store,Credit Card,False,4.2,0.0,49.51,1,Winter,Wednesday,False
+ORD-000384,2023-01-20,Clothing,Hair Care,174.85,2,33,Female,Online,Credit Card,True,3.5,21.9,327.8,1,Winter,Friday,False
+ORD-000045,2023-01-21,Sports,Bicycle,85.55,8,52,Male,In-Store,Debit Card,True,4.4,168.9,515.5,1,Winter,Saturday,True
+ORD-000007,2023-01-21,Home & Garden,Sneakers,16.04,5,50,Female,Online,PayPal,False,4.0,0.0,80.2,1,Winter,Saturday,True
+ORD-000308,2023-01-22,Home & Garden,Running Shoes,22.52,6,44,Male,In-Store,Credit Card,False,4.3,0.0,135.12,1,Winter,Sunday,True
+ORD-000026,2023-01-22,Electronics,Hair Care,15.48,3,42,Other,Online,Credit Card,True,4.8,5.65,40.79,1,Winter,Sunday,True
+ORD-000483,2023-01-23,Clothing,Nail Polish,20.61,4,64,Male,In-Store,Debit Card,False,3.7,0.0,82.44,1,Winter,Monday,False
+ORD-000376,2023-01-26,Electronics,Wireless Headphones,40.5,8,30,Male,In-Store,PayPal,False,2.7,0.0,324.0,1,Winter,Thursday,False
+ORD-000317,2023-01-27,Sports,Decor Item,17.06,5,43,Female,In-Store,Debit Card,True,3.5,18.2,67.1,1,Winter,Friday,False
+ORD-000165,2023-01-28,Electronics,Skincare Set,100.24,3,35,Male,Online,PayPal,False,2.7,0.0,300.72,1,Winter,Saturday,True
+ORD-000110,2023-01-28,Beauty,Nail Polish,65.16,9,45,Female,Online,Debit Card,False,4.7,0.0,586.44,1,Winter,Saturday,True
+ORD-000150,2023-01-29,Home & Garden,Dumbbells,44.71,3,37,Male,Online,Debit Card,False,3.1,0.0,134.13,1,Winter,Sunday,True
+ORD-000115,2023-02-02,Beauty,Wireless Headphones,85.35,4,50,Male,In-Store,PayPal,True,2.6,73.14,268.26,2,Winter,Thursday,False
+ORD-000306,2023-02-02,Clothing,Dumbbells,44.88,1,32,Male,Online,PayPal,False,3.8,0.0,44.88,2,Winter,Thursday,False
+ORD-000327,2023-02-04,Clothing,Jeans,21.04,3,43,Male,Mobile App,Debit Card,False,3.9,0.0,63.12,2,Winter,Saturday,True
+ORD-000059,2023-02-04,Books,Laptop Pro,8.46,9,34,Male,Online,Credit Card,True,4.6,14.8,61.34,2,Winter,Saturday,True
+ORD-000124,2023-02-04,Beauty,Tennis Racket,26.6,7,72,Female,In-Store,Debit Card,False,4.0,0.0,186.2,2,Winter,Saturday,True
+ORD-000151,2023-02-05,Electronics,Tablet,21.11,6,37,Male,In-Store,Credit Card,False,3.2,0.0,126.66,2,Winter,Sunday,True
+ORD-000382,2023-02-05,Clothing,Nail Polish,12.46,8,51,Female,Online,Debit Card,False,2.9,0.0,99.68,2,Winter,Sunday,True
+ORD-000338,2023-02-06,Books,Perfume,48.52,6,63,Male,In-Store,Debit Card,False,,0.0,291.12,2,Winter,Monday,False
+ORD-000268,2023-02-06,Clothing,Makeup Kit,22.06,4,28,Male,Online,Credit Card,False,3.3,0.0,88.24,2,Winter,Monday,False
+ORD-000311,2023-02-07,Electronics,Jeans,45.26,4,62,Male,Online,PayPal,False,4.0,0.0,181.04,2,Winter,Tuesday,False
+ORD-000373,2023-02-08,Sports,Cookbook,8.85,4,43,Female,Online,Debit Card,False,3.6,0.0,35.4,2,Winter,Wednesday,False
+ORD-000250,2023-02-08,Electronics,Jacket,12.49,4,64,Male,Mobile App,Credit Card,False,4.7,0.0,49.96,2,Winter,Wednesday,False
+ORD-000477,2023-02-08,Books,Hair Care,51.36,7,54,Female,Online,Credit Card,False,4.6,0.0,359.52,2,Winter,Wednesday,False
+ORD-000091,2023-02-10,Beauty,Hair Care,29.1,4,18,Female,Mobile App,Credit Card,False,3.7,0.0,116.4,2,Winter,Friday,False
+ORD-000109,2023-02-10,Books,T-Shirt,70.24,9,48,Female,Online,PayPal,True,3.1,110.19,521.97,2,Winter,Friday,False
+ORD-000137,2023-02-11,Home & Garden,Bicycle,185.81,6,59,Female,Online,Credit Card,True,3.3,170.4,944.46,2,Winter,Saturday,True
+ORD-000167,2023-02-13,Clothing,Dumbbells,33.88,9,48,Male,Mobile App,Debit Card,False,4.2,0.0,304.92,2,Winter,Monday,False
+ORD-000071,2023-02-13,Books,Smart Watch,22.48,4,36,Female,Online,Cash,True,4.4,12.52,77.4,2,Winter,Monday,False
+ORD-000161,2023-02-14,Electronics,Kitchen Appliance,48.71,3,72,Female,In-Store,Credit Card,True,4.0,27.75,118.38,2,Winter,Tuesday,False
+ORD-000334,2023-02-15,Sports,History Book,200.41,5,36,Male,In-Store,Debit Card,False,4.5,0.0,1002.05,2,Winter,Wednesday,False
+ORD-000471,2023-02-16,Beauty,Kitchen Appliance,55.52,4,44,Female,In-Store,Credit Card,True,4.2,13.36,208.72,2,Winter,Thursday,False
+ORD-000422,2023-02-16,Electronics,Bicycle,12.77,1,68,Male,Online,Credit Card,False,3.9,0.0,12.77,2,Winter,Thursday,False
+ORD-000453,2023-02-17,Beauty,Cookbook,70.86,4,53,Female,Online,Credit Card,True,3.3,47.85,235.59,2,Winter,Friday,False
+ORD-000116,2023-02-17,Electronics,Storage Box,19.52,4,46,Other,Online,Cash,False,3.5,0.0,78.08,2,Winter,Friday,False
+ORD-000329,2023-02-18,Home & Garden,Furniture,29.52,5,23,Male,In-Store,PayPal,False,2.8,0.0,147.6,2,Winter,Saturday,True
+ORD-000030,2023-02-18,Home & Garden,Jacket,29.17,5,47,Female,In-Store,Debit Card,False,5.0,0.0,145.85,2,Winter,Saturday,True
+ORD-000062,2023-02-19,Clothing,Sneakers,22.98,3,34,Female,In-Store,Debit Card,False,2.9,0.0,68.94,2,Winter,Sunday,True
+ORD-000314,2023-02-20,Electronics,Running Shoes,41.37,5,27,Male,In-Store,Debit Card,True,3.0,21.72,185.13,2,Winter,Monday,False
+ORD-000395,2023-02-20,Home & Garden,Nail Polish,29.52,7,44,Female,In-Store,Credit Card,False,4.5,0.0,206.64,2,Winter,Monday,False
+ORD-000037,2023-02-20,Clothing,Dumbbells,17.71,1,30,Other,Online,Credit Card,True,5.0,3.64,14.07,2,Winter,Monday,False
+ORD-000198,2023-02-21,Books,Running Shoes,18.71,6,18,Male,Mobile App,Credit Card,False,4.5,0.0,112.26,2,Winter,Tuesday,False
+ORD-000143,2023-02-21,Electronics,History Book,132.39,3,27,Male,Mobile App,Credit Card,False,5.0,0.0,397.17,2,Winter,Tuesday,False
+ORD-000413,2023-02-22,Sports,Bicycle,63.47,4,18,Male,Mobile App,Cash,False,2.4,0.0,253.88,2,Winter,Wednesday,False
+ORD-000086,2023-02-22,Electronics,Decor Item,12.82,9,75,Female,In-Store,PayPal,False,3.2,0.0,115.38,2,Winter,Wednesday,False
+ORD-000216,2023-02-22,Books,Science Magazine,11.66,8,41,Male,In-Store,Credit Card,False,3.2,0.0,93.28,2,Winter,Wednesday,False
+ORD-000055,2023-02-22,Electronics,Science Magazine,18.99,7,32,Female,In-Store,Debit Card,False,4.6,0.0,132.93,2,Winter,Wednesday,False
+ORD-000356,2023-02-23,Sports,Bicycle,7.29,2,30,Male,Mobile App,Credit Card,False,4.0,0.0,14.58,2,Winter,Thursday,False
+ORD-000410,2023-02-23,Electronics,Furniture,62.27,9,29,Female,Online,Debit Card,True,3.5,47.39,513.04,2,Winter,Thursday,False
+ORD-000210,2023-02-23,Clothing,Jeans,20.66,3,32,Male,Online,Credit Card,False,4.0,0.0,61.98,2,Winter,Thursday,False
+ORD-000065,2023-02-23,Sports,Tennis Racket,35.56,8,48,Female,In-Store,Credit Card,False,1.9,0.0,284.48,2,Winter,Thursday,False
+ORD-000278,2023-02-23,Books,Nail Polish,11.38,4,26,Male,In-Store,Credit Card,True,4.3,6.55,38.97,2,Winter,Thursday,False
+ORD-000039,2023-02-24,Sports,Perfume,27.15,1,22,Female,Online,PayPal,False,4.6,0.0,27.15,2,Winter,Friday,False
+ORD-000357,2023-02-27,Books,Cookbook,21.37,6,37,Male,Mobile App,Credit Card,False,4.1,0.0,128.22,2,Winter,Monday,False
+ORD-000437,2023-02-27,Books,Tennis Racket,136.92,5,42,Male,Online,PayPal,True,4.9,116.06,568.54,2,Winter,Monday,False
+ORD-000445,2023-02-27,Beauty,Smart Watch,18.58,1,62,Male,Online,Credit Card,False,4.2,0.0,18.58,2,Winter,Monday,False
+ORD-000403,2023-02-27,Books,Wireless Headphones,19.28,8,49,Female,Online,Credit Card,True,4.1,12.48,141.76,2,Winter,Monday,False
+ORD-000031,2023-02-28,Sports,Jacket,32.03,1,18,Male,Mobile App,Debit Card,False,3.7,0.0,32.03,2,Winter,Tuesday,False
+ORD-000263,2023-03-01,Clothing,Fiction Novel,43.55,5,62,Female,In-Store,Cash,False,3.3,0.0,217.75,3,Spring,Wednesday,False
+ORD-000414,2023-03-01,Clothing,Garden Tools,19.12,6,19,Male,Mobile App,Debit Card,False,3.7,0.0,114.72,3,Spring,Wednesday,False
+ORD-000117,2023-03-03,Beauty,Skincare Set,75.08,5,34,Male,Mobile App,Credit Card,True,4.7,52.85,322.55,3,Spring,Friday,False
+ORD-000162,2023-03-03,Clothing,Tablet,23.67,1,19,Female,Online,Credit Card,False,4.6,0.0,23.67,3,Spring,Friday,False
+ORD-000398,2023-03-04,Home & Garden,Storage Box,20.02,3,52,Male,Mobile App,PayPal,False,3.7,0.0,60.06,3,Spring,Saturday,True
+ORD-000102,2023-03-04,Electronics,Wireless Headphones,32.05,6,41,Male,Mobile App,PayPal,True,4.1,19.89,172.41,3,Spring,Saturday,True
+ORD-000139,2023-03-04,Electronics,Dress,30.55,2,59,Other,In-Store,Credit Card,False,2.1,0.0,61.1,3,Spring,Saturday,True
+ORD-000095,2023-03-06,Electronics,Laptop Pro,10.08,9,52,Male,In-Store,Credit Card,False,4.6,0.0,90.72,3,Spring,Monday,False
+ORD-000159,2023-03-07,Sports,T-Shirt,23.81,1,31,Female,Mobile App,Credit Card,False,2.6,0.0,23.81,3,Spring,Tuesday,False
+ORD-000299,2023-03-09,Home & Garden,Cookbook,121.45,8,46,Male,In-Store,Debit Card,False,3.7,0.0,971.6,3,Spring,Thursday,False
+ORD-000459,2023-03-10,Beauty,Skincare Set,56.04,2,29,Male,In-Store,Debit Card,False,4.8,0.0,112.08,3,Spring,Friday,False
+ORD-000470,2023-03-10,Books,Dumbbells,10.13,3,42,Female,Online,Debit Card,False,4.5,0.0,30.39,3,Spring,Friday,False
+ORD-000005,2023-03-13,Books,Nail Polish,49.67,5,45,Female,In-Store,Credit Card,False,4.0,0.0,248.35,3,Spring,Monday,False
+ORD-000282,2023-03-16,Books,Sneakers,167.79,9,18,Male,In-Store,Credit Card,False,3.7,0.0,1510.11,3,Spring,Thursday,False
+ORD-000463,2023-03-17,Clothing,Wireless Headphones,34.44,2,39,Female,Online,Credit Card,True,4.6,12.22,56.66,3,Spring,Friday,False
+ORD-000061,2023-03-22,Clothing,Science Magazine,82.21,1,34,Female,In-Store,Credit Card,True,3.9,13.1,69.11,3,Spring,Wednesday,False
+ORD-000204,2023-03-22,Sports,Programming Book,21.28,9,28,Male,In-Store,Credit Card,False,3.5,0.0,191.52,3,Spring,Wednesday,False
+ORD-000104,2023-03-22,Electronics,Dumbbells,12.91,2,41,Male,In-Store,Debit Card,False,2.4,0.0,25.82,3,Spring,Wednesday,False
+ORD-000157,2023-03-27,Clothing,Smart Watch,28.78,8,43,Female,In-Store,Credit Card,True,4.6,56.69,173.55,3,Spring,Monday,False
+ORD-000466,2023-03-27,Sports,Tablet,9.49,5,29,Female,Online,Credit Card,True,5.0,3.79,43.66,3,Spring,Monday,False
+ORD-000012,2023-03-29,Beauty,Decor Item,34.16,5,18,Female,In-Store,Credit Card,True,3.0,11.6,159.2,3,Spring,Wednesday,False
+ORD-000454,2023-03-30,Books,History Book,2.2,6,40,Female,In-Store,Debit Card,False,4.6,0.0,13.2,3,Spring,Thursday,False
+ORD-000049,2023-03-30,Sports,Dumbbells,61.33,1,27,Other,Online,Cash,True,4.4,4.35,56.98,3,Spring,Thursday,False
+ORD-000057,2023-04-02,Beauty,Wireless Headphones,166.72,8,38,Male,In-Store,Debit Card,False,4.6,0.0,1333.76,4,Spring,Sunday,True
+ORD-000389,2023-04-02,Books,Garden Tools,54.87,1,55,Female,In-Store,Debit Card,True,3.4,8.23,46.64,4,Spring,Sunday,True
+ORD-000436,2023-04-02,Electronics,History Book,78.8,5,76,Male,Mobile App,Debit Card,False,3.7,0.0,394.0,4,Spring,Sunday,True
+ORD-000472,2023-04-04,Clothing,Dress,99.43,2,63,Female,Mobile App,Debit Card,False,3.2,0.0,198.86,4,Spring,Tuesday,False
+ORD-000343,2023-04-05,Books,Programming Book,16.68,2,42,Female,Online,Credit Card,True,3.3,8.21,25.15,4,Spring,Wednesday,False
+ORD-000450,2023-04-06,Clothing,Yoga Mat,69.79,5,43,Female,In-Store,PayPal,False,4.9,0.0,348.95,4,Spring,Thursday,False
+ORD-000144,2023-04-06,Beauty,Smart Watch,78.26,7,38,Female,Online,Credit Card,True,4.5,38.02,509.8,4,Spring,Thursday,False
+ORD-000193,2023-04-06,Home & Garden,Perfume,120.07,6,39,Male,Online,Cash,False,4.8,0.0,720.42,4,Spring,Thursday,False
+ORD-000494,2023-04-06,Books,Dress,31.19,8,59,Male,In-Store,Debit Card,True,5.0,13.71,235.81,4,Spring,Thursday,False
+ORD-000234,2023-04-07,Electronics,Cookbook,61.41,1,44,Female,Online,Debit Card,True,3.6,6.75,54.66,4,Spring,Friday,False
+ORD-000321,2023-04-07,Beauty,Makeup Kit,14.2,3,18,Male,Online,Credit Card,False,4.4,0.0,42.6,4,Spring,Friday,False
+ORD-000230,2023-04-08,Home & Garden,Programming Book,22.6,4,35,Other,Mobile App,Debit Card,False,3.9,0.0,90.4,4,Spring,Saturday,True
+ORD-000289,2023-04-09,Clothing,T-Shirt,12.8,6,54,Female,In-Store,PayPal,True,4.5,16.74,60.06,4,Spring,Sunday,True
+ORD-000272,2023-04-09,Books,Jacket,29.63,7,27,Male,In-Store,Credit Card,False,3.7,0.0,207.41,4,Spring,Sunday,True
+ORD-000257,2023-04-09,Sports,Fiction Novel,54.29,3,36,Female,In-Store,Credit Card,True,4.6,24.22,138.65,4,Spring,Sunday,True
+ORD-000344,2023-04-09,Electronics,Sneakers,14.2,9,24,Female,In-Store,Debit Card,True,2.9,28.59,99.21,4,Spring,Sunday,True
+ORD-000120,2023-04-09,Books,Tennis Racket,13.66,8,48,Female,Online,Credit Card,True,5.0,25.84,83.44,4,Spring,Sunday,True
+ORD-000336,2023-04-09,Clothing,Wireless Headphones,46.41,9,30,Female,In-Store,Credit Card,True,4.5,86.99,330.7,4,Spring,Sunday,True
+ORD-000013,2023-04-10,Beauty,Science Magazine,34.28,4,31,Male,Online,Credit Card,False,3.3,0.0,137.12,4,Spring,Monday,False
+ORD-000478,2023-04-10,Electronics,Makeup Kit,15.83,6,39,Male,Online,Credit Card,False,3.7,0.0,94.98,4,Spring,Monday,False
+ORD-000488,2023-04-10,Electronics,T-Shirt,56.76,8,39,Female,Mobile App,PayPal,False,4.1,0.0,454.08,4,Spring,Monday,False
+ORD-000411,2023-04-11,Books,Nail Polish,19.71,8,28,Male,Mobile App,Debit Card,False,3.8,0.0,157.68,4,Spring,Tuesday,False
+ORD-000202,2023-04-11,Electronics,Hair Care,113.31,6,42,Male,Online,Credit Card,True,3.5,48.88,630.98,4,Spring,Tuesday,False
+ORD-000126,2023-04-11,Home & Garden,History Book,66.97,9,52,Male,In-Store,Cash,False,3.5,0.0,602.73,4,Spring,Tuesday,False
+ORD-000417,2023-04-13,Sports,History Book,12.3,3,21,Male,Online,Credit Card,False,3.7,0.0,36.9,4,Spring,Thursday,False
+ORD-000001,2023-04-13,Home & Garden,Hair Care,10.02,5,31,Male,Online,Debit Card,True,3.4,10.67,39.43,4,Spring,Thursday,False
+ORD-000008,2023-04-13,Books,Decor Item,72.23,2,31,Female,In-Store,PayPal,False,4.2,0.0,144.46,4,Spring,Thursday,False
+ORD-000369,2023-04-14,Home & Garden,Gaming Mouse,7.43,1,25,Female,Online,Debit Card,False,4.6,0.0,7.43,4,Spring,Friday,False
+ORD-000284,2023-04-14,Clothing,Kitchen Appliance,5.9,8,42,Female,In-Store,Debit Card,True,3.9,7.21,39.99,4,Spring,Friday,False
+ORD-000066,2023-04-16,Sports,History Book,84.16,1,57,Female,Online,Credit Card,False,4.4,0.0,84.16,4,Spring,Sunday,True
+ORD-000429,2023-04-16,Clothing,Hair Care,127.96,6,45,Other,Online,Credit Card,False,4.4,0.0,767.76,4,Spring,Sunday,True
+ORD-000004,2023-04-17,Beauty,Hair Care,32.31,7,61,Other,Online,Debit Card,False,3.8,0.0,226.17,4,Spring,Monday,False
+ORD-000166,2023-04-18,Books,Fiction Novel,60.7,2,38,Female,In-Store,Credit Card,False,4.8,0.0,121.4,4,Spring,Tuesday,False
+ORD-000415,2023-04-18,Sports,Laptop Pro,42.03,2,36,Female,Online,Credit Card,True,4.6,16.26,67.8,4,Spring,Tuesday,False
+ORD-000288,2023-04-22,Electronics,Garden Tools,32.21,8,29,Female,Mobile App,PayPal,False,,0.0,257.68,4,Spring,Saturday,True
+ORD-000262,2023-04-22,Electronics,Gaming Mouse,70.44,5,18,Female,Online,PayPal,False,,0.0,352.2,4,Spring,Saturday,True
+ORD-000203,2023-04-23,Electronics,Running Shoes,10.75,4,43,Male,Online,PayPal,True,4.3,3.89,39.11,4,Spring,Sunday,True
+ORD-000283,2023-04-23,Electronics,Running Shoes,66.68,4,42,Female,In-Store,Debit Card,False,3.8,0.0,266.72,4,Spring,Sunday,True
+ORD-000196,2023-04-23,Books,Laptop Pro,67.21,6,39,Other,In-Store,Credit Card,True,4.7,35.44,367.82,4,Spring,Sunday,True
+ORD-000206,2023-04-23,Home & Garden,Programming Book,26.06,1,45,Male,Online,Credit Card,True,4.6,2.78,23.28,4,Spring,Sunday,True
+ORD-000201,2023-04-23,Clothing,Skincare Set,130.77,5,40,Male,Online,Debit Card,False,2.7,0.0,653.85,4,Spring,Sunday,True
+ORD-000362,2023-04-24,Sports,Jacket,60.47,7,42,Female,Online,Cash,False,2.3,0.0,423.29,4,Spring,Monday,False
+ORD-000178,2023-04-26,Beauty,Fiction Novel,11.13,9,43,Male,In-Store,Credit Card,False,2.5,0.0,100.17,4,Spring,Wednesday,False
+ORD-000346,2023-04-26,Books,Dumbbells,47.75,6,55,Male,Online,Credit Card,False,4.3,0.0,286.5,4,Spring,Wednesday,False
+ORD-000281,2023-04-26,Clothing,Decor Item,84.54,6,58,Female,In-Store,Cash,False,4.9,0.0,507.24,4,Spring,Wednesday,False
+ORD-000440,2023-04-27,Electronics,Cookbook,23.1,6,40,Male,Online,Credit Card,False,3.7,0.0,138.6,4,Spring,Thursday,False
+ORD-000452,2023-04-28,Beauty,Decor Item,43.87,9,52,Other,Online,Cash,False,4.5,0.0,394.83,4,Spring,Friday,False
+ORD-000433,2023-04-30,Clothing,T-Shirt,67.3,7,44,Female,Mobile App,Debit Card,False,5.0,0.0,471.1,4,Spring,Sunday,True
+ORD-000279,2023-04-30,Books,Garden Tools,80.43,6,61,Female,Mobile App,PayPal,False,4.9,0.0,482.58,4,Spring,Sunday,True
+ORD-000177,2023-05-01,Beauty,Gaming Mouse,16.27,1,27,Male,In-Store,Credit Card,True,4.1,1.26,15.01,5,Spring,Monday,False
+ORD-000009,2023-05-02,Books,Furniture,27.43,5,52,Female,Online,Credit Card,False,4.8,0.0,137.15,5,Spring,Tuesday,False
+ORD-000446,2023-05-02,Home & Garden,Makeup Kit,271.34,4,44,Other,In-Store,Debit Card,False,3.5,0.0,1085.36,5,Spring,Tuesday,False
+ORD-000225,2023-05-03,Clothing,Science Magazine,117.59,8,26,Male,Online,Debit Card,False,3.2,0.0,940.72,5,Spring,Wednesday,False
+ORD-000236,2023-05-04,Electronics,Gaming Mouse,4.65,4,24,Female,Online,Debit Card,False,4.0,0.0,18.6,5,Spring,Thursday,False
+ORD-000428,2023-05-04,Clothing,Tablet,21.66,4,69,Female,In-Store,PayPal,True,3.0,19.55,67.09,5,Spring,Thursday,False
+ORD-000400,2023-05-05,Electronics,Laptop Pro,37.68,3,57,Male,Online,PayPal,False,4.1,0.0,113.04,5,Spring,Friday,False
+ORD-000451,2023-05-06,Home & Garden,Running Shoes,17.47,3,33,Female,Online,Debit Card,False,3.3,0.0,52.41,5,Spring,Saturday,True
+ORD-000214,2023-05-06,Beauty,Gaming Mouse,36.31,4,48,Male,Online,Credit Card,False,4.7,0.0,145.24,5,Spring,Saturday,True
+ORD-000366,2023-05-07,Beauty,Dumbbells,19.05,6,25,Female,Mobile App,PayPal,False,4.3,0.0,114.3,5,Spring,Sunday,True
+ORD-000443,2023-05-07,Books,Jeans,58.55,9,59,Female,Online,Credit Card,False,3.8,0.0,526.95,5,Spring,Sunday,True
+ORD-000352,2023-05-08,Clothing,Kitchen Appliance,27.11,2,41,Male,Online,PayPal,False,3.9,0.0,54.22,5,Spring,Monday,False
+ORD-000305,2023-05-08,Books,Kitchen Appliance,36.72,2,28,Female,Mobile App,Credit Card,True,4.9,9.91,63.53,5,Spring,Monday,False
+ORD-000249,2023-05-08,Electronics,Sneakers,63.06,9,39,Female,Online,Debit Card,True,3.7,53.61,513.93,5,Spring,Monday,False
+ORD-000171,2023-05-08,Books,Running Shoes,23.87,9,33,Male,In-Store,Credit Card,False,5.0,0.0,214.83,5,Spring,Monday,False
+ORD-000253,2023-05-09,Clothing,Wireless Headphones,38.36,1,80,Female,Online,PayPal,False,4.7,0.0,38.36,5,Spring,Tuesday,False
+ORD-000100,2023-05-09,Electronics,Jacket,8.38,8,41,Male,Online,PayPal,True,4.1,10.38,56.66,5,Spring,Tuesday,False
+ORD-000444,2023-05-09,Home & Garden,Storage Box,36.46,3,60,Female,Online,Credit Card,False,3.5,0.0,109.38,5,Spring,Tuesday,False
+ORD-000208,2023-05-10,Electronics,Kitchen Appliance,19.57,7,41,Female,In-Store,Credit Card,False,5.0,0.0,136.99,5,Spring,Wednesday,False
+ORD-000215,2023-05-10,Clothing,Dumbbells,18.29,4,70,Male,Online,Debit Card,False,4.8,0.0,73.16,5,Spring,Wednesday,False
+ORD-000016,2023-05-11,Electronics,Yoga Mat,66.04,1,24,Female,Online,PayPal,False,3.8,0.0,66.04,5,Spring,Thursday,False
+ORD-000276,2023-05-11,Home & Garden,Science Magazine,70.71,8,47,Male,In-Store,Debit Card,False,3.7,0.0,565.68,5,Spring,Thursday,False
+ORD-000127,2023-05-11,Home & Garden,Dumbbells,107.84,2,57,Female,In-Store,PayPal,False,3.2,0.0,215.68,5,Spring,Thursday,False
+ORD-000042,2023-05-11,Sports,Hair Care,37.47,5,41,Female,Mobile App,Debit Card,True,4.2,14.5,172.85,5,Spring,Thursday,False
+ORD-000163,2023-05-14,Sports,Bicycle,81.86,4,34,Male,Online,Debit Card,False,2.9,0.0,327.44,5,Spring,Sunday,True
+ORD-000044,2023-05-15,Sports,Laptop Pro,38.54,2,18,Other,In-Store,Credit Card,False,5.0,0.0,77.08,5,Spring,Monday,False
+ORD-000303,2023-05-15,Clothing,Garden Tools,26.67,5,35,Male,Online,Debit Card,True,2.7,20.28,113.07,5,Spring,Monday,False
+ORD-000111,2023-05-15,Clothing,Dress,25.57,8,22,Female,Mobile App,Credit Card,True,4.9,28.43,176.13,5,Spring,Monday,False
+ORD-000101,2023-05-16,Books,Gaming Mouse,41.98,2,33,Female,Online,Debit Card,False,3.5,0.0,83.96,5,Spring,Tuesday,False
+ORD-000183,2023-05-17,Electronics,Jacket,22.62,3,25,Other,Online,Debit Card,False,3.3,0.0,67.86,5,Spring,Wednesday,False
+ORD-000103,2023-05-19,Books,Dumbbells,30.11,5,35,Male,Mobile App,PayPal,True,4.0,34.95,115.6,5,Spring,Friday,False
+ORD-000267,2023-05-20,Electronics,Makeup Kit,26.85,5,24,Male,In-Store,Credit Card,False,3.9,0.0,134.25,5,Spring,Saturday,True
+ORD-000387,2023-05-22,Clothing,Fiction Novel,38.74,3,77,Male,Online,PayPal,True,3.9,14.2,102.02,5,Spring,Monday,False
+ORD-000148,2023-05-23,Clothing,Cookbook,6.54,1,49,Male,In-Store,Cash,False,4.3,0.0,6.54,5,Spring,Tuesday,False
+ORD-000388,2023-05-23,Home & Garden,Bicycle,20.46,8,25,Male,Online,Credit Card,False,3.5,0.0,163.68,5,Spring,Tuesday,False
+ORD-000426,2023-05-24,Home & Garden,Makeup Kit,63.47,5,41,Male,Online,Cash,False,5.0,0.0,317.35,5,Spring,Wednesday,False
+ORD-000465,2023-05-24,Clothing,T-Shirt,11.59,3,18,Female,In-Store,Debit Card,False,3.1,0.0,34.77,5,Spring,Wednesday,False
+ORD-000233,2023-05-24,Electronics,Makeup Kit,130.66,7,47,Other,In-Store,PayPal,False,4.6,0.0,914.62,5,Spring,Wednesday,False
+ORD-000260,2023-05-24,Sports,Nail Polish,73.13,3,44,Female,Online,Credit Card,True,2.5,18.23,201.16,5,Spring,Wednesday,False
+ORD-000432,2023-05-25,Books,Perfume,4.6,9,30,Female,Online,Cash,False,4.3,0.0,41.4,5,Spring,Thursday,False
+ORD-000493,2023-05-27,Beauty,Bicycle,11.55,1,27,Male,Online,Debit Card,False,3.6,0.0,11.55,5,Spring,Saturday,True
+ORD-000431,2023-05-27,Beauty,Programming Book,33.81,3,25,Female,Online,Debit Card,True,4.1,12.84,88.59,5,Spring,Saturday,True
+ORD-000273,2023-05-27,Home & Garden,Bicycle,24.75,2,73,Female,Online,Debit Card,False,4.1,0.0,49.5,5,Spring,Saturday,True
+ORD-000244,2023-05-27,Electronics,Kitchen Appliance,36.47,4,34,Female,Online,Credit Card,False,4.1,0.0,145.88,5,Spring,Saturday,True
+ORD-000325,2023-05-27,Sports,Nail Polish,20.8,1,24,Male,Online,Debit Card,False,3.4,0.0,20.8,5,Spring,Saturday,True
+ORD-000245,2023-05-28,Electronics,Laptop Pro,24.15,6,32,Female,Online,Debit Card,False,3.7,0.0,144.9,5,Spring,Sunday,True
+ORD-000241,2023-05-28,Books,Dress,14.12,1,44,Female,Online,Debit Card,True,5.0,2.89,11.23,5,Spring,Sunday,True
+ORD-000401,2023-05-30,Sports,Nail Polish,36.18,8,36,Female,In-Store,Cash,True,,28.87,260.57,5,Spring,Tuesday,False
+ORD-000017,2023-05-30,Electronics,Perfume,51.2,5,38,Female,In-Store,Credit Card,False,3.2,0.0,256.0,5,Spring,Tuesday,False
+ORD-000365,2023-05-31,Home & Garden,Gaming Mouse,23.39,8,39,Female,Online,Credit Card,False,3.9,0.0,187.12,5,Spring,Wednesday,False
+ORD-000255,2023-05-31,Home & Garden,Furniture,24.01,6,71,Female,Online,Debit Card,True,3.6,17.31,126.75,5,Spring,Wednesday,False
+ORD-000190,2023-06-01,Home & Garden,Skincare Set,29.56,4,51,Female,In-Store,Credit Card,True,3.9,18.38,99.86,6,Summer,Thursday,False
+ORD-000277,2023-06-01,Sports,Fiction Novel,72.51,9,58,Female,Online,Credit Card,True,4.2,100.61,551.98,6,Summer,Thursday,False
+ORD-000015,2023-06-01,Electronics,Gaming Mouse,37.38,3,36,Male,In-Store,Credit Card,False,5.0,0.0,112.14,6,Summer,Thursday,False
+ORD-000290,2023-06-02,Electronics,Sneakers,42.51,7,23,Male,Online,Debit Card,False,3.3,0.0,297.57,6,Summer,Friday,False
+ORD-000396,2023-06-02,Electronics,Bicycle,21.69,9,37,Male,In-Store,Credit Card,False,3.9,0.0,195.21,6,Summer,Friday,False
+ORD-000464,2023-06-03,Electronics,Tennis Racket,27.53,6,51,Female,Online,Credit Card,True,3.9,37.95,127.23,6,Summer,Saturday,True
+ORD-000367,2023-06-04,Electronics,Wireless Headphones,126.19,3,54,Female,In-Store,Debit Card,True,5.0,38.66,339.91,6,Summer,Sunday,True
+ORD-000092,2023-06-06,Beauty,Perfume,11.32,4,35,Female,In-Store,PayPal,False,3.8,0.0,45.28,6,Summer,Tuesday,False
+ORD-000310,2023-06-07,Electronics,Skincare Set,30.69,8,43,Male,Mobile App,Cash,False,3.3,0.0,245.52,6,Summer,Wednesday,False
+ORD-000333,2023-06-07,Clothing,Kitchen Appliance,40.37,2,26,Female,Online,Cash,False,,0.0,80.74,6,Summer,Wednesday,False
+ORD-000430,2023-06-07,Electronics,Tablet,150.57,6,57,Male,Online,Cash,False,5.0,0.0,903.42,6,Summer,Wednesday,False
+ORD-000269,2023-06-09,Books,Kitchen Appliance,42.18,6,23,Female,In-Store,Credit Card,False,3.0,0.0,253.08,6,Summer,Friday,False
+ORD-000153,2023-06-09,Sports,T-Shirt,11.6,7,35,Female,In-Store,PayPal,True,4.5,10.52,70.68,6,Summer,Friday,False
+ORD-000192,2023-06-09,Electronics,Gaming Mouse,29.62,8,26,Male,Online,Credit Card,True,5.0,44.25,192.71,6,Summer,Friday,False
+ORD-000219,2023-06-09,Home & Garden,Yoga Mat,49.55,2,21,Female,Online,Debit Card,False,4.7,0.0,99.1,6,Summer,Friday,False
+ORD-000349,2023-06-10,Electronics,Jeans,21.03,2,42,Female,In-Store,PayPal,False,4.5,0.0,42.06,6,Summer,Saturday,True
+ORD-000280,2023-06-10,Electronics,Tennis Racket,10.28,9,42,Female,Mobile App,Credit Card,False,4.1,0.0,92.52,6,Summer,Saturday,True
+ORD-000298,2023-06-10,Books,Dress,21.62,4,18,Other,In-Store,PayPal,False,2.8,0.0,86.48,6,Summer,Saturday,True
+ORD-000024,2023-06-10,Sports,Laptop Pro,22.66,2,47,Male,Online,PayPal,True,3.6,5.01,40.31,6,Summer,Saturday,True
+ORD-000072,2023-06-11,Clothing,Storage Box,24.94,4,18,Male,Online,Credit Card,False,4.6,0.0,99.76,6,Summer,Sunday,True
+ORD-000105,2023-06-12,Electronics,Fiction Novel,15.65,1,51,Female,Online,Credit Card,False,4.3,0.0,15.65,6,Summer,Monday,False
+ORD-000295,2023-06-12,Books,Science Magazine,8.98,9,45,Female,Online,Debit Card,False,3.2,0.0,80.82,6,Summer,Monday,False
+ORD-000185,2023-06-14,Electronics,Kitchen Appliance,124.96,6,23,Female,In-Store,PayPal,False,4.7,0.0,749.76,6,Summer,Wednesday,False
+ORD-000047,2023-06-16,Beauty,Wireless Headphones,12.83,8,67,Female,Online,Credit Card,True,4.9,22.62,80.02,6,Summer,Friday,False
+ORD-000297,2023-06-18,Books,Skincare Set,4.79,9,37,Male,Mobile App,Credit Card,True,4.7,4.04,39.07,6,Summer,Sunday,True
+ORD-000160,2023-06-19,Electronics,Gaming Mouse,10.7,5,20,Male,Online,Debit Card,False,3.4,0.0,53.5,6,Summer,Monday,False
+ORD-000374,2023-06-19,Electronics,Cookbook,76.45,4,20,Male,In-Store,Debit Card,True,3.6,23.71,282.09,6,Summer,Monday,False
+ORD-000032,2023-06-19,Clothing,Decor Item,51.67,9,36,Male,In-Store,Cash,True,5.0,83.19,381.84,6,Summer,Monday,False
+ORD-000407,2023-06-19,Clothing,Nail Polish,5.11,5,35,Female,Online,Debit Card,False,4.5,0.0,25.55,6,Summer,Monday,False
+ORD-000149,2023-06-20,Sports,Gaming Mouse,52.3,8,60,Male,Mobile App,Credit Card,False,2.9,0.0,418.4,6,Summer,Tuesday,False
+ORD-000189,2023-06-21,Home & Garden,Nail Polish,18.86,4,37,Male,Online,Debit Card,False,4.1,0.0,75.44,6,Summer,Wednesday,False
+ORD-000121,2023-06-21,Beauty,Kitchen Appliance,69.09,5,29,Male,Online,Credit Card,False,4.4,0.0,345.45,6,Summer,Wednesday,False
+ORD-000331,2023-06-21,Books,Jacket,48.5,9,25,Male,In-Store,Credit Card,True,5.0,45.52,390.98,6,Summer,Wednesday,False
+ORD-000217,2023-06-21,Sports,Tennis Racket,101.86,8,49,Other,Mobile App,Credit Card,True,4.1,153.83,661.05,6,Summer,Wednesday,False
+ORD-000383,2023-06-22,Sports,Kitchen Appliance,14.62,1,38,Female,Online,Cash,True,3.8,2.14,12.48,6,Summer,Thursday,False
+ORD-000360,2023-06-23,Clothing,Garden Tools,19.8,2,34,Male,Online,Credit Card,False,4.9,0.0,39.6,6,Summer,Friday,False
+ORD-000036,2023-06-24,Beauty,Laptop Pro,43.58,9,26,Female,In-Store,Debit Card,False,5.0,0.0,392.22,6,Summer,Saturday,True
+ORD-000372,2023-06-25,Electronics,Dumbbells,21.85,4,49,Male,In-Store,PayPal,False,4.3,0.0,87.4,6,Summer,Sunday,True
+ORD-000307,2023-06-25,Beauty,Skincare Set,12.51,7,57,Female,In-Store,PayPal,False,4.3,0.0,87.57,6,Summer,Sunday,True
+ORD-000138,2023-06-28,Clothing,Jeans,84.59,2,51,Male,Mobile App,Credit Card,True,3.8,26.7,142.48,6,Summer,Wednesday,False
+ORD-000406,2023-06-29,Electronics,Tennis Racket,7.71,5,32,Male,Online,Cash,False,4.1,0.0,38.55,6,Summer,Thursday,False
+ORD-000490,2023-06-29,Electronics,Tennis Racket,14.19,6,49,Other,In-Store,Debit Card,True,4.1,4.34,80.8,6,Summer,Thursday,False
+ORD-000195,2023-06-29,Sports,Programming Book,141.08,5,40,Female,In-Store,PayPal,False,4.1,0.0,705.4,6,Summer,Thursday,False
+ORD-000342,2023-06-30,Clothing,Tablet,110.8,8,33,Female,In-Store,Credit Card,False,3.2,0.0,886.4,6,Summer,Friday,False
+ORD-000224,2023-07-03,Books,Smart Watch,29.11,6,30,Other,Online,Debit Card,False,3.0,0.0,174.66,7,Summer,Monday,False
+ORD-000467,2023-07-04,Electronics,Tablet,11.42,8,29,Male,Mobile App,PayPal,False,3.7,0.0,91.36,7,Summer,Tuesday,False
+ORD-000397,2023-07-05,Beauty,Jeans,6.95,2,47,Female,Online,Credit Card,False,2.6,0.0,13.9,7,Summer,Wednesday,False
+ORD-000205,2023-07-06,Home & Garden,Sneakers,46.83,4,39,Female,Mobile App,Cash,False,3.5,0.0,187.32,7,Summer,Thursday,False
+ORD-000155,2023-07-06,Home & Garden,Running Shoes,22.38,9,41,Male,Online,PayPal,False,4.0,0.0,201.42,7,Summer,Thursday,False
+ORD-000237,2023-07-06,Home & Garden,Dress,9.63,1,18,Male,Online,Debit Card,False,5.0,0.0,9.63,7,Summer,Thursday,False
+ORD-000345,2023-07-07,Books,Skincare Set,57.64,7,43,Female,In-Store,Credit Card,True,3.4,34.21,369.27,7,Summer,Friday,False
+ORD-000033,2023-07-07,Electronics,History Book,21.47,1,18,Male,In-Store,Credit Card,False,5.0,0.0,21.47,7,Summer,Friday,False
+ORD-000090,2023-07-07,Sports,Smart Watch,70.09,1,18,Male,In-Store,Credit Card,False,2.8,0.0,70.09,7,Summer,Friday,False
+ORD-000457,2023-07-08,Sports,Gaming Mouse,23.82,3,58,Male,In-Store,Credit Card,False,4.0,0.0,71.46,7,Summer,Saturday,True
+ORD-000006,2023-07-08,Clothing,Garden Tools,28.2,1,43,Female,In-Store,Debit Card,False,5.0,0.0,28.2,7,Summer,Saturday,True
+ORD-000080,2023-07-09,Electronics,Jeans,57.51,8,18,Male,In-Store,Credit Card,False,3.7,0.0,460.08,7,Summer,Sunday,True
+ORD-000035,2023-07-09,Sports,Perfume,116.03,9,51,Male,Online,Debit Card,True,5.0,184.97,859.3,7,Summer,Sunday,True
+ORD-000399,2023-07-09,Clothing,Tablet,17.12,5,27,Male,Online,Debit Card,False,3.2,0.0,85.6,7,Summer,Sunday,True
+ORD-000174,2023-07-09,Electronics,T-Shirt,9.63,4,18,Female,Online,Credit Card,True,3.6,7.6,30.92,7,Summer,Sunday,True
+ORD-000347,2023-07-10,Electronics,Dumbbells,75.42,1,18,Female,In-Store,PayPal,False,5.0,0.0,75.42,7,Summer,Monday,False
+ORD-000069,2023-07-10,Books,Programming Book,47.99,5,50,Male,In-Store,Credit Card,False,4.1,0.0,239.95,7,Summer,Monday,False
+ORD-000328,2023-07-11,Electronics,Wireless Headphones,50.53,9,46,Other,Mobile App,Cash,True,3.7,79.5,375.27,7,Summer,Tuesday,False
+ORD-000458,2023-07-11,Electronics,Bicycle,42.16,9,26,Female,In-Store,Debit Card,True,2.9,37.97,341.47,7,Summer,Tuesday,False
+ORD-000022,2023-07-11,Sports,Decor Item,34.84,2,29,Male,Online,Debit Card,False,3.6,0.0,69.68,7,Summer,Tuesday,False
+ORD-000293,2023-07-13,Home & Garden,Bicycle,408.94,8,65,Female,Online,PayPal,False,3.9,0.0,3271.52,7,Summer,Thursday,False
+ORD-000304,2023-07-14,Home & Garden,Jeans,90.87,4,55,Female,Mobile App,PayPal,False,3.7,0.0,363.48,7,Summer,Friday,False
+ORD-000418,2023-07-15,Electronics,Science Magazine,33.78,3,20,Female,Online,Cash,True,4.9,5.45,95.89,7,Summer,Saturday,True
+ORD-000182,2023-07-17,Sports,Jeans,54.49,4,57,Female,In-Store,Credit Card,False,4.2,0.0,217.96,7,Summer,Monday,False
+ORD-000220,2023-07-17,Sports,Tablet,5.91,3,42,Male,Online,Credit Card,True,3.6,3.08,14.65,7,Summer,Monday,False
+ORD-000231,2023-07-17,Electronics,Kitchen Appliance,20.1,7,41,Male,Online,Debit Card,False,3.8,0.0,140.7,7,Summer,Monday,False
+ORD-000247,2023-07-18,Clothing,Hair Care,18.6,9,26,Female,Online,Credit Card,False,5.0,0.0,167.4,7,Summer,Tuesday,False
+ORD-000235,2023-07-20,Electronics,Programming Book,22.54,2,43,Male,Mobile App,Debit Card,False,4.1,0.0,45.08,7,Summer,Thursday,False
+ORD-000112,2023-07-20,Clothing,Gaming Mouse,34.4,9,52,Male,In-Store,Credit Card,False,4.3,0.0,309.6,7,Summer,Thursday,False
+ORD-000073,2023-07-21,Sports,Tablet,7.56,3,53,Female,Online,Credit Card,False,3.4,0.0,22.68,7,Summer,Friday,False
+ORD-000223,2023-07-22,Beauty,Skincare Set,79.51,3,49,Female,In-Store,Credit Card,False,4.9,0.0,238.53,7,Summer,Saturday,True
+ORD-000474,2023-07-23,Home & Garden,Storage Box,8.23,3,20,Female,Online,Credit Card,True,5.0,5.84,18.85,7,Summer,Sunday,True
+ORD-000060,2023-07-25,Home & Garden,Perfume,100.12,7,26,Male,Online,Credit Card,False,4.8,0.0,700.84,7,Summer,Tuesday,False
+ORD-000134,2023-07-26,Beauty,Sneakers,94.29,6,78,Male,Online,Credit Card,False,3.3,0.0,565.74,7,Summer,Wednesday,False
+ORD-000083,2023-07-27,Sports,Laptop Pro,12.52,8,20,Male,In-Store,PayPal,False,3.6,0.0,100.16,7,Summer,Thursday,False
+ORD-000275,2023-07-27,Clothing,Kitchen Appliance,25.65,1,56,Male,Online,Credit Card,True,4.2,4.79,20.86,7,Summer,Thursday,False
+ORD-000296,2023-07-27,Electronics,Makeup Kit,37.97,6,51,Female,Online,PayPal,False,5.0,0.0,227.82,7,Summer,Thursday,False
+ORD-000082,2023-08-01,Electronics,Jeans,257.56,1,74,Female,Online,Credit Card,False,3.5,0.0,257.56,8,Summer,Tuesday,False
+ORD-000123,2023-08-02,Books,Nail Polish,35.92,7,56,Male,In-Store,PayPal,False,3.7,0.0,251.44,8,Summer,Wednesday,False
+ORD-000010,2023-08-03,Beauty,Laptop Pro,35.93,5,45,Male,Online,PayPal,False,4.0,0.0,179.65,8,Summer,Thursday,False
+ORD-000078,2023-08-03,Home & Garden,Garden Tools,55.27,5,18,Male,In-Store,Credit Card,False,2.9,0.0,276.35,8,Summer,Thursday,False
+ORD-000393,2023-08-03,Books,Bicycle,11.18,7,44,Female,Online,Debit Card,False,5.0,0.0,78.26,8,Summer,Thursday,False
+ORD-000118,2023-08-04,Electronics,Yoga Mat,35.63,3,48,Male,Online,Debit Card,True,4.5,16.18,90.71,8,Summer,Friday,False
+ORD-000088,2023-08-05,Clothing,Hair Care,33.74,2,44,Male,In-Store,Credit Card,False,4.5,0.0,67.48,8,Summer,Saturday,True
+ORD-000475,2023-08-06,Books,Skincare Set,18.78,2,56,Male,In-Store,Credit Card,False,4.7,0.0,37.56,8,Summer,Sunday,True
+ORD-000070,2023-08-06,Electronics,Garden Tools,52.58,8,29,Male,In-Store,Credit Card,True,3.4,25.47,395.17,8,Summer,Sunday,True
+ORD-000218,2023-08-06,Clothing,Yoga Mat,9.17,2,32,Female,Online,Debit Card,True,4.1,2.04,16.3,8,Summer,Sunday,True
+ORD-000130,2023-08-06,Books,Decor Item,28.86,8,24,Female,Online,Debit Card,False,5.0,0.0,230.88,8,Summer,Sunday,True
+ORD-000469,2023-08-08,Clothing,Science Magazine,31.09,5,49,Male,In-Store,Credit Card,True,5.0,13.42,142.03,8,Summer,Tuesday,False
+ORD-000332,2023-08-08,Books,Jeans,5.36,1,54,Male,In-Store,PayPal,False,5.0,0.0,5.36,8,Summer,Tuesday,False
+ORD-000209,2023-08-08,Electronics,Makeup Kit,157.72,4,49,Male,Online,Credit Card,True,4.9,87.15,543.73,8,Summer,Tuesday,False
+ORD-000481,2023-08-10,Clothing,Furniture,18.42,3,40,Male,Online,Debit Card,False,3.5,0.0,55.26,8,Summer,Thursday,False
+ORD-000145,2023-08-10,Beauty,Skincare Set,220.27,8,51,Male,Mobile App,Credit Card,True,4.9,110.75,1651.41,8,Summer,Thursday,False
+ORD-000355,2023-08-11,Home & Garden,Yoga Mat,238.52,5,33,Female,Mobile App,Cash,False,5.0,0.0,1192.6,8,Summer,Friday,False
+ORD-000491,2023-08-11,Clothing,Hair Care,44.89,9,36,Male,In-Store,Debit Card,False,5.0,0.0,404.01,8,Summer,Friday,False
+ORD-000212,2023-08-12,Clothing,Wireless Headphones,13.25,5,32,Male,Online,PayPal,False,4.5,0.0,66.25,8,Summer,Saturday,True
+ORD-000213,2023-08-13,Clothing,Yoga Mat,53.0,7,27,Female,Mobile App,PayPal,False,3.8,0.0,371.0,8,Summer,Sunday,True
+ORD-000186,2023-08-13,Beauty,Skincare Set,91.88,8,41,Female,In-Store,PayPal,True,3.1,142.7,592.34,8,Summer,Sunday,True
+ORD-000175,2023-08-13,Sports,Makeup Kit,94.97,6,59,Female,In-Store,Credit Card,True,4.7,85.59,484.23,8,Summer,Sunday,True
+ORD-000318,2023-08-14,Electronics,Garden Tools,37.74,5,59,Male,In-Store,Debit Card,False,1.7,0.0,188.7,8,Summer,Monday,False
+ORD-000287,2023-08-15,Clothing,Yoga Mat,25.99,5,63,Female,Mobile App,Debit Card,False,4.1,0.0,129.95,8,Summer,Tuesday,False
+ORD-000125,2023-08-15,Books,Makeup Kit,39.19,1,36,Male,Online,Debit Card,False,3.9,0.0,39.19,8,Summer,Tuesday,False
+ORD-000439,2023-08-17,Home & Garden,Nail Polish,24.8,4,42,Female,Mobile App,Debit Card,True,4.3,5.54,93.66,8,Summer,Thursday,False
+ORD-000312,2023-08-18,Electronics,History Book,13.63,8,32,Female,Online,PayPal,True,3.6,8.33,100.71,8,Summer,Friday,False
+ORD-000173,2023-08-19,Clothing,Bicycle,116.16,4,43,Female,In-Store,Credit Card,False,4.6,0.0,464.64,8,Summer,Saturday,True
+ORD-000108,2023-08-19,Home & Garden,Tablet,59.96,7,23,Female,Online,PayPal,False,3.3,0.0,419.72,8,Summer,Saturday,True
+ORD-000141,2023-08-19,Clothing,Yoga Mat,127.55,4,44,Male,In-Store,PayPal,False,5.0,0.0,510.2,8,Summer,Saturday,True
+ORD-000146,2023-08-19,Home & Garden,Skincare Set,23.59,6,37,Male,In-Store,Credit Card,False,5.0,0.0,141.54,8,Summer,Saturday,True
+ORD-000337,2023-08-21,Clothing,Fiction Novel,14.19,7,50,Female,In-Store,PayPal,False,4.5,0.0,99.33,8,Summer,Monday,False
+ORD-000179,2023-08-21,Books,Cookbook,19.34,2,41,Female,Online,Debit Card,True,4.5,4.66,34.02,8,Summer,Monday,False
+ORD-000271,2023-08-21,Clothing,Kitchen Appliance,68.11,7,50,Female,In-Store,Cash,False,3.9,0.0,476.77,8,Summer,Monday,False
+ORD-000194,2023-08-21,Books,Yoga Mat,8.88,3,22,Female,Online,Debit Card,False,4.8,0.0,26.64,8,Summer,Monday,False
+ORD-000188,2023-08-22,Electronics,Perfume,5.16,5,37,Female,In-Store,Debit Card,False,4.1,0.0,25.8,8,Summer,Tuesday,False
+ORD-000028,2023-08-24,Home & Garden,Jeans,20.01,4,54,Female,In-Store,Debit Card,False,5.0,0.0,80.04,8,Summer,Thursday,False
+ORD-000084,2023-08-25,Home & Garden,Dumbbells,37.46,8,18,Female,In-Store,Credit Card,False,4.9,0.0,299.68,8,Summer,Friday,False
+ORD-000147,2023-08-25,Books,Hair Care,24.96,5,31,Female,Online,Credit Card,False,1.8,0.0,124.8,8,Summer,Friday,False
+ORD-000455,2023-08-25,Electronics,Jacket,30.37,2,46,Female,Mobile App,Debit Card,False,3.8,0.0,60.74,8,Summer,Friday,False
+ORD-000473,2023-08-26,Clothing,Wireless Headphones,20.52,9,37,Male,Online,Debit Card,True,4.6,40.75,143.93,8,Summer,Saturday,True
+ORD-000309,2023-08-26,Electronics,Yoga Mat,10.83,2,18,Male,Online,PayPal,False,2.8,0.0,21.66,8,Summer,Saturday,True
+ORD-000448,2023-08-27,Books,Storage Box,9.22,4,27,Male,In-Store,Credit Card,False,2.3,0.0,36.88,8,Summer,Sunday,True
+ORD-000232,2023-08-28,Electronics,Nail Polish,21.56,1,38,Female,Mobile App,Cash,False,5.0,0.0,21.56,8,Summer,Monday,False
+ORD-000142,2023-08-29,Books,Programming Book,22.91,2,68,Male,Online,Cash,False,4.4,0.0,45.82,8,Summer,Tuesday,False
+ORD-000052,2023-08-30,Clothing,Sneakers,20.09,3,38,Male,In-Store,Debit Card,False,2.8,0.0,60.27,8,Summer,Wednesday,False
+ORD-000156,2023-08-31,Home & Garden,Jacket,393.56,5,27,Female,Online,Credit Card,False,4.6,0.0,1967.8,8,Summer,Thursday,False
+ORD-000040,2023-09-01,Clothing,Furniture,20.58,2,20,Male,In-Store,Credit Card,False,4.4,0.0,41.16,9,Fall,Friday,False
+ORD-000486,2023-09-03,Electronics,Wireless Headphones,46.54,3,27,Female,Mobile App,PayPal,False,4.2,0.0,139.62,9,Fall,Sunday,True
+ORD-000371,2023-09-03,Sports,Makeup Kit,76.26,5,59,Female,In-Store,Debit Card,False,4.5,0.0,381.3,9,Fall,Sunday,True
+ORD-000375,2023-09-04,Electronics,Furniture,37.91,6,64,Female,Mobile App,Credit Card,False,3.3,0.0,227.46,9,Fall,Monday,False
+ORD-000221,2023-09-04,Beauty,Tennis Racket,58.31,3,44,Female,Online,Credit Card,True,,11.45,163.48,9,Fall,Monday,False
+ORD-000462,2023-09-04,Books,Skincare Set,54.93,8,56,Female,Online,Credit Card,False,4.4,0.0,439.44,9,Fall,Monday,False
+ORD-000484,2023-09-07,Books,Kitchen Appliance,22.07,2,23,Female,In-Store,Credit Card,False,3.8,0.0,44.14,9,Fall,Thursday,False
+ORD-000492,2023-09-07,Electronics,Science Magazine,5.82,4,18,Female,Online,Credit Card,True,4.3,1.63,21.65,9,Fall,Thursday,False
+ORD-000079,2023-09-09,Electronics,Furniture,45.71,6,18,Female,Mobile App,Credit Card,False,4.5,0.0,274.26,9,Fall,Saturday,True
+ORD-000242,2023-09-09,Home & Garden,Dress,35.64,6,64,Female,Online,Credit Card,False,3.4,0.0,213.84,9,Fall,Saturday,True
+ORD-000089,2023-09-09,Clothing,Decor Item,19.69,3,35,Female,In-Store,Cash,False,3.7,0.0,59.07,9,Fall,Saturday,True
+ORD-000259,2023-09-09,Electronics,Decor Item,49.64,3,48,Female,In-Store,Cash,True,4.1,35.09,113.83,9,Fall,Saturday,True
+ORD-000348,2023-09-10,Clothing,Fiction Novel,52.24,1,22,Male,Online,PayPal,False,4.6,0.0,52.24,9,Fall,Sunday,True
+ORD-000027,2023-09-10,Home & Garden,Dumbbells,42.7,9,70,Female,Online,Credit Card,True,4.0,39.8,344.5,9,Fall,Sunday,True
+ORD-000266,2023-09-11,Electronics,Fiction Novel,24.08,5,60,Male,Online,Credit Card,False,3.6,0.0,120.4,9,Fall,Monday,False
+ORD-000480,2023-09-11,Books,Wireless Headphones,97.38,5,46,Male,In-Store,Credit Card,False,3.7,0.0,486.9,9,Fall,Monday,False
+ORD-000286,2023-09-11,Electronics,Tablet,199.72,4,44,Male,Online,Credit Card,False,4.5,0.0,798.88,9,Fall,Monday,False
+ORD-000226,2023-09-12,Books,Storage Box,209.82,6,55,Female,In-Store,Credit Card,False,3.6,0.0,1258.92,9,Fall,Tuesday,False
+ORD-000131,2023-09-12,Beauty,Kitchen Appliance,37.23,8,52,Male,In-Store,PayPal,False,3.1,0.0,297.84,9,Fall,Tuesday,False
+ORD-000350,2023-09-13,Electronics,Science Magazine,46.79,6,46,Female,Online,PayPal,False,2.7,0.0,280.74,9,Fall,Wednesday,False
+ORD-000495,2023-09-14,Books,Smart Watch,46.27,7,27,Male,Online,Credit Card,False,3.9,0.0,323.89,9,Fall,Thursday,False
+ORD-000128,2023-09-14,Books,Kitchen Appliance,112.05,5,27,Male,Mobile App,Credit Card,False,5.0,0.0,560.25,9,Fall,Thursday,False
+ORD-000019,2023-09-15,Home & Garden,Furniture,45.95,7,39,Male,Online,Debit Card,True,3.4,25.04,296.61,9,Fall,Friday,False
+ORD-000240,2023-09-16,Sports,Running Shoes,41.86,1,39,Female,In-Store,Credit Card,True,2.5,8.7,33.16,9,Fall,Saturday,True
+ORD-000180,2023-09-16,Sports,Bicycle,5.32,5,57,Male,Online,Credit Card,False,4.4,0.0,26.6,9,Fall,Saturday,True
+ORD-000067,2023-09-17,Sports,Tennis Racket,21.45,5,27,Female,Mobile App,Debit Card,True,3.7,25.3,81.95,9,Fall,Sunday,True
+ORD-000107,2023-09-18,Home & Garden,Tablet,87.54,2,34,Male,Online,Credit Card,False,4.0,0.0,175.08,9,Fall,Monday,False
+ORD-000419,2023-09-19,Clothing,Dress,19.19,2,27,Female,In-Store,Cash,False,5.0,0.0,38.38,9,Fall,Tuesday,False
+ORD-000258,2023-09-20,Home & Garden,Fiction Novel,37.07,5,50,Male,Mobile App,Credit Card,False,5.0,0.0,185.35,9,Fall,Wednesday,False
+ORD-000058,2023-09-21,Beauty,Decor Item,18.32,8,53,Female,In-Store,Debit Card,True,5.0,22.52,124.04,9,Fall,Thursday,False
+ORD-000315,2023-09-21,Clothing,Jeans,34.68,8,37,Male,In-Store,Credit Card,False,3.3,0.0,277.44,9,Fall,Thursday,False
+ORD-000412,2023-09-21,Sports,Tablet,41.21,2,42,Female,In-Store,Credit Card,False,4.4,0.0,82.42,9,Fall,Thursday,False
+ORD-000386,2023-09-21,Books,Running Shoes,71.69,8,34,Male,Online,Debit Card,True,3.6,141.51,432.01,9,Fall,Thursday,False
+ORD-000053,2023-09-22,Electronics,Yoga Mat,60.43,5,32,Male,In-Store,PayPal,True,4.1,39.09,263.06,9,Fall,Friday,False
+ORD-000254,2023-09-24,Books,Wireless Headphones,37.84,6,54,Male,Online,Debit Card,False,4.2,0.0,227.04,9,Fall,Sunday,True
+ORD-000114,2023-09-25,Electronics,Fiction Novel,30.82,6,55,Male,Online,Debit Card,False,4.4,0.0,184.92,9,Fall,Monday,False
+ORD-000199,2023-09-25,Books,Smart Watch,16.46,8,18,Male,In-Store,Credit Card,True,3.9,17.03,114.65,9,Fall,Monday,False
+ORD-000427,2023-09-26,Books,Skincare Set,47.43,5,47,Female,Mobile App,Cash,True,3.4,18.76,218.39,9,Fall,Tuesday,False
+ORD-000074,2023-09-27,Clothing,Yoga Mat,21.05,7,36,Male,Online,PayPal,False,,0.0,147.35,9,Fall,Wednesday,False
+ORD-000077,2023-09-28,Sports,Dumbbells,17.74,5,37,Female,In-Store,Credit Card,True,4.2,15.45,73.25,9,Fall,Thursday,False
+ORD-000409,2023-09-28,Home & Garden,Smart Watch,18.13,7,27,Female,In-Store,Credit Card,True,4.1,15.11,111.8,9,Fall,Thursday,False
+ORD-000034,2023-09-28,Sports,Gaming Mouse,55.21,8,47,Male,Online,Credit Card,True,3.9,42.61,399.07,9,Fall,Thursday,False
+ORD-000003,2023-09-28,Books,Cookbook,20.42,8,32,Female,Mobile App,Cash,False,3.7,0.0,163.36,9,Fall,Thursday,False
+ORD-000456,2023-09-29,Beauty,Programming Book,31.34,6,24,Female,Online,Debit Card,False,3.7,0.0,188.04,9,Fall,Friday,False
+ORD-000368,2023-09-30,Electronics,Jacket,69.29,3,35,Female,In-Store,Credit Card,False,3.9,0.0,207.87,9,Fall,Saturday,True
+ORD-000048,2023-10-01,Books,Tennis Racket,24.07,1,52,Male,Online,Debit Card,False,4.3,0.0,24.07,10,Fall,Sunday,True
+ORD-000435,2023-10-02,Beauty,Tennis Racket,107.87,7,30,Female,Online,Credit Card,True,4.0,48.22,706.87,10,Fall,Monday,False
+ORD-000319,2023-10-04,Books,Sneakers,18.66,2,46,Male,Online,Credit Card,True,5.0,5.52,31.8,10,Fall,Wednesday,False
+ORD-000023,2023-10-04,Electronics,Smart Watch,19.88,4,52,Female,In-Store,PayPal,False,3.5,0.0,79.52,10,Fall,Wednesday,False
+ORD-000301,2023-10-04,Electronics,Science Magazine,38.23,2,23,Female,Online,Credit Card,False,4.5,0.0,76.46,10,Fall,Wednesday,False
+ORD-000460,2023-10-05,Sports,Dress,37.1,9,40,Female,Online,PayPal,False,5.0,0.0,333.9,10,Fall,Thursday,False
+ORD-000442,2023-10-06,Beauty,Bicycle,72.59,5,18,Female,Online,Debit Card,False,3.9,0.0,362.95,10,Fall,Friday,False
+ORD-000087,2023-10-07,Beauty,Garden Tools,24.63,2,44,Male,Online,Debit Card,False,5.0,0.0,49.26,10,Fall,Saturday,True
+ORD-000228,2023-10-07,Books,Wireless Headphones,23.09,4,30,Male,Online,Credit Card,False,2.6,0.0,92.36,10,Fall,Saturday,True
+ORD-000499,2023-10-07,Sports,Programming Book,99.04,9,29,Male,Online,Credit Card,False,5.0,0.0,891.36,10,Fall,Saturday,True
+ORD-000339,2023-10-07,Electronics,Cookbook,59.85,7,42,Female,In-Store,Credit Card,False,3.1,0.0,418.95,10,Fall,Saturday,True
+ORD-000361,2023-10-07,Beauty,Cookbook,11.46,3,45,Male,Online,PayPal,True,4.4,2.14,32.24,10,Fall,Saturday,True
+ORD-000354,2023-10-08,Clothing,Hair Care,24.82,5,53,Male,Online,Debit Card,False,3.7,0.0,124.1,10,Fall,Sunday,True
+ORD-000316,2023-10-10,Electronics,Dress,61.3,9,56,Female,In-Store,PayPal,False,4.2,0.0,551.7,10,Fall,Tuesday,False
+ORD-000176,2023-10-10,Sports,Sneakers,47.06,6,32,Female,Online,Credit Card,False,4.5,0.0,282.36,10,Fall,Tuesday,False
+ORD-000133,2023-10-10,Clothing,Dress,50.12,7,40,Female,Online,Debit Card,False,4.2,0.0,350.84,10,Fall,Tuesday,False
+ORD-000322,2023-10-11,Electronics,Dumbbells,34.83,7,36,Female,Online,Cash,True,3.0,40.15,203.66,10,Fall,Wednesday,False
+ORD-000164,2023-10-11,Beauty,T-Shirt,26.58,8,43,Female,Online,Debit Card,False,4.0,0.0,212.64,10,Fall,Wednesday,False
+ORD-000158,2023-10-11,Beauty,Dress,18.03,8,55,Male,Online,Debit Card,False,4.4,0.0,144.24,10,Fall,Wednesday,False
+ORD-000468,2023-10-12,Clothing,Yoga Mat,41.37,1,58,Male,In-Store,Credit Card,False,3.5,0.0,41.37,10,Fall,Thursday,False
+ORD-000169,2023-10-13,Sports,Jacket,70.94,7,20,Female,Mobile App,Credit Card,False,2.9,0.0,496.58,10,Fall,Friday,False
+ORD-000320,2023-10-13,Clothing,Furniture,115.23,5,73,Female,Online,PayPal,True,3.1,53.9,522.25,10,Fall,Friday,False
+ORD-000392,2023-10-15,Clothing,Science Magazine,59.52,6,62,Male,Online,Credit Card,False,5.0,0.0,357.12,10,Fall,Sunday,True
+ORD-000363,2023-10-15,Beauty,Fiction Novel,21.38,6,37,Male,In-Store,Debit Card,True,3.6,19.8,108.48,10,Fall,Sunday,True
+ORD-000300,2023-10-16,Clothing,Skincare Set,42.95,4,28,Female,In-Store,Credit Card,True,3.2,12.12,159.68,10,Fall,Monday,False
+ORD-000106,2023-10-16,Electronics,Storage Box,120.91,8,38,Female,Online,Credit Card,False,3.8,0.0,967.28,10,Fall,Monday,False
+ORD-000479,2023-10-16,Electronics,Jacket,111.83,1,27,Male,Online,Credit Card,False,3.7,0.0,111.83,10,Fall,Monday,False
+ORD-000449,2023-10-17,Home & Garden,Hair Care,21.91,2,52,Female,Mobile App,Cash,True,3.5,4.74,39.08,10,Fall,Tuesday,False
+ORD-000489,2023-10-17,Beauty,Cookbook,130.53,7,40,Female,In-Store,Credit Card,False,5.0,0.0,913.71,10,Fall,Tuesday,False
+ORD-000119,2023-10-20,Sports,Fiction Novel,10.93,1,56,Female,Online,Debit Card,False,4.4,0.0,10.93,10,Fall,Friday,False
+ORD-000021,2023-10-21,Clothing,T-Shirt,79.94,4,45,Female,In-Store,Credit Card,False,5.0,0.0,319.76,10,Fall,Saturday,True
+ORD-000227,2023-10-21,Beauty,Decor Item,25.6,5,55,Female,Online,Credit Card,True,3.7,26.29,101.71,10,Fall,Saturday,True
+ORD-000200,2023-10-22,Sports,Decor Item,9.02,7,21,Male,Online,PayPal,True,2.4,4.73,58.41,10,Fall,Sunday,True
+ORD-000081,2023-10-23,Home & Garden,Jacket,13.06,6,31,Female,Online,Credit Card,False,2.9,0.0,78.36,10,Fall,Monday,False
+ORD-000256,2023-10-25,Electronics,Tablet,41.4,1,22,Female,Online,Credit Card,True,2.9,8.96,32.44,10,Fall,Wednesday,False
+ORD-000370,2023-10-26,Books,Nail Polish,6.83,7,39,Male,Online,Credit Card,True,4.3,6.4,41.41,10,Fall,Thursday,False
+ORD-000094,2023-10-28,Clothing,Gaming Mouse,53.78,9,38,Male,Mobile App,Debit Card,True,4.5,66.02,418.0,10,Fall,Saturday,True
+ORD-000341,2023-10-29,Home & Garden,Wireless Headphones,42.67,1,18,Female,Online,PayPal,False,3.4,0.0,42.67,10,Fall,Sunday,True
+ORD-000274,2023-10-31,Electronics,Dumbbells,60.48,3,46,Female,In-Store,Debit Card,True,2.8,28.87,152.57,10,Fall,Tuesday,False
+ORD-000265,2023-10-31,Home & Garden,Tablet,62.93,1,38,Male,Mobile App,Credit Card,False,3.4,0.0,62.93,10,Fall,Tuesday,False
+ORD-000076,2023-10-31,Electronics,History Book,15.75,3,43,Female,Mobile App,Debit Card,True,2.9,5.24,42.01,10,Fall,Tuesday,False
+ORD-000302,2023-10-31,Clothing,Jacket,142.11,9,49,Female,In-Store,Credit Card,False,3.2,0.0,1278.99,10,Fall,Tuesday,False
+ORD-000324,2023-10-31,Beauty,Furniture,45.42,8,24,Female,Online,Credit Card,True,2.7,50.82,312.54,10,Fall,Tuesday,False
+ORD-000405,2023-11-01,Sports,History Book,9.54,4,38,Female,In-Store,Credit Card,False,4.1,0.0,38.16,11,Fall,Wednesday,False
+ORD-000378,2023-11-02,Home & Garden,Jeans,11.61,5,35,Male,Online,Credit Card,False,,0.0,58.05,11,Fall,Thursday,False
+ORD-000043,2023-11-03,Clothing,Sneakers,27.74,7,31,Female,In-Store,PayPal,True,4.2,43.19,150.99,11,Fall,Friday,False
+ORD-000187,2023-11-03,Home & Garden,Running Shoes,39.83,3,38,Female,Mobile App,Debit Card,False,5.0,0.0,119.49,11,Fall,Friday,False
+ORD-000248,2023-11-04,Electronics,Programming Book,48.77,5,40,Male,Mobile App,Debit Card,False,2.8,0.0,243.85,11,Fall,Saturday,True
+ORD-000425,2023-11-04,Home & Garden,Fiction Novel,21.32,8,55,Male,Online,PayPal,False,3.4,0.0,170.56,11,Fall,Saturday,True
+ORD-000018,2023-11-05,Electronics,Kitchen Appliance,166.25,4,61,Male,In-Store,Cash,False,5.0,0.0,665.0,11,Fall,Sunday,True
+ORD-000068,2023-11-06,Electronics,History Book,66.8,4,45,Male,In-Store,PayPal,True,,20.02,247.18,11,Fall,Monday,False
+ORD-000294,2023-11-06,Sports,Fiction Novel,34.0,6,50,Female,Mobile App,Debit Card,False,5.0,0.0,204.0,11,Fall,Monday,False
+ORD-000424,2023-11-07,Home & Garden,Smart Watch,9.13,7,51,Male,Online,Debit Card,True,4.9,5.75,58.16,11,Fall,Tuesday,False
+ORD-000381,2023-11-09,Sports,Hair Care,10.49,9,49,Male,Online,PayPal,True,,9.32,85.09,11,Fall,Thursday,False
+ORD-000025,2023-11-10,Clothing,Sneakers,22.84,8,40,Other,Online,Credit Card,True,4.7,35.32,147.4,11,Fall,Friday,False
+ORD-000402,2023-11-10,Home & Garden,Kitchen Appliance,44.81,8,46,Male,In-Store,Debit Card,True,5.0,83.18,275.3,11,Fall,Friday,False
+ORD-000191,2023-11-11,Clothing,History Book,16.2,4,18,Female,Mobile App,Credit Card,False,3.9,0.0,64.8,11,Fall,Saturday,True
+ORD-000380,2023-11-12,Clothing,Storage Box,117.3,4,59,Female,In-Store,Credit Card,True,5.0,97.27,371.93,11,Fall,Sunday,True
+ORD-000050,2023-11-12,Clothing,Makeup Kit,56.91,7,29,Male,Mobile App,Credit Card,False,5.0,0.0,398.37,11,Fall,Sunday,True
+ORD-000323,2023-11-13,Clothing,Hair Care,43.1,5,23,Male,In-Store,Credit Card,True,3.3,15.01,200.49,11,Fall,Monday,False
+ORD-000184,2023-11-14,Books,Cookbook,100.55,7,42,Male,In-Store,PayPal,True,4.9,124.03,579.82,11,Fall,Tuesday,False
+ORD-000197,2023-11-14,Sports,Decor Item,41.04,5,18,Female,In-Store,Debit Card,True,3.3,26.72,178.48,11,Fall,Tuesday,False
+ORD-000441,2023-11-14,Sports,Gaming Mouse,21.39,7,42,Female,In-Store,PayPal,False,3.9,0.0,149.73,11,Fall,Tuesday,False
+ORD-000434,2023-11-15,Books,Jeans,5.28,1,42,Male,In-Store,Credit Card,True,5.0,0.73,4.55,11,Fall,Wednesday,False
+ORD-000041,2023-11-16,Beauty,Jeans,14.99,8,58,Female,Mobile App,Credit Card,False,4.4,0.0,119.92,11,Fall,Thursday,False
+ORD-000385,2023-11-17,Clothing,Nail Polish,49.14,9,42,Male,Online,PayPal,False,2.4,0.0,442.26,11,Fall,Friday,False
+ORD-000391,2023-11-18,Sports,Fiction Novel,13.79,3,43,Female,In-Store,Credit Card,False,4.2,0.0,41.37,11,Fall,Saturday,True
+ORD-000351,2023-11-19,Beauty,Tennis Racket,13.28,6,51,Female,In-Store,Debit Card,False,4.1,0.0,79.68,11,Fall,Sunday,True
+ORD-000358,2023-11-19,Books,Furniture,15.64,9,42,Male,In-Store,Debit Card,False,2.4,0.0,140.76,11,Fall,Sunday,True
+ORD-000222,2023-11-20,Electronics,Laptop Pro,71.97,1,34,Female,Online,Cash,False,4.1,0.0,71.97,11,Fall,Monday,False
+ORD-000229,2023-11-21,Clothing,Storage Box,37.31,3,65,Female,Online,PayPal,True,5.0,20.38,91.55,11,Fall,Tuesday,False
+ORD-000496,2023-11-21,Electronics,History Book,30.53,7,63,Female,In-Store,Credit Card,True,2.1,20.12,193.59,11,Fall,Tuesday,False
+ORD-000487,2023-11-21,Home & Garden,Wireless Headphones,66.8,8,18,Other,Online,Debit Card,False,4.1,0.0,534.4,11,Fall,Tuesday,False
+ORD-000238,2023-11-22,Electronics,Skincare Set,49.54,9,57,Female,In-Store,Debit Card,False,3.9,0.0,445.86,11,Fall,Wednesday,False
+ORD-000408,2023-11-22,Electronics,Furniture,22.21,8,63,Female,Online,Credit Card,False,,0.0,177.68,11,Fall,Wednesday,False
+ORD-000097,2023-11-23,Books,Tablet,47.26,2,52,Male,Online,Credit Card,True,4.2,6.68,87.84,11,Fall,Thursday,False
+ORD-000154,2023-11-23,Beauty,Furniture,86.38,7,56,Male,Online,Cash,False,4.3,0.0,604.66,11,Fall,Thursday,False
+ORD-000113,2023-11-24,Sports,Running Shoes,10.2,2,22,Male,Online,Debit Card,False,2.6,0.0,20.4,11,Fall,Friday,False
+ORD-000046,2023-11-25,Electronics,Dumbbells,27.41,6,29,Female,In-Store,Debit Card,False,,0.0,164.46,11,Fall,Saturday,True
+ORD-000011,2023-11-27,Clothing,History Book,51.46,2,18,Female,Online,PayPal,False,5.0,0.0,102.92,11,Fall,Monday,False
+ORD-000170,2023-11-27,Sports,Yoga Mat,349.66,2,40,Female,Mobile App,Debit Card,True,4.3,171.02,528.3,11,Fall,Monday,False
+ORD-000500,2023-12-02,Electronics,Dress,24.36,6,55,Male,Online,Credit Card,True,3.3,32.03,114.13,12,Winter,Saturday,True
+ORD-000085,2023-12-04,Electronics,Running Shoes,29.17,9,54,Female,Online,Debit Card,False,4.1,0.0,262.53,12,Winter,Monday,False
+ORD-000292,2023-12-04,Books,Furniture,57.87,7,51,Male,Mobile App,Debit Card,False,3.1,0.0,405.09,12,Winter,Monday,False
+ORD-000251,2023-12-04,Books,Bicycle,31.78,2,38,Male,Online,Debit Card,True,3.0,12.76,50.8,12,Winter,Monday,False
+ORD-000168,2023-12-06,Beauty,Running Shoes,117.24,5,18,Female,In-Store,Credit Card,False,2.9,0.0,586.2,12,Winter,Wednesday,False
+ORD-000056,2023-12-06,Clothing,Tablet,32.03,5,43,Male,Online,PayPal,False,4.1,0.0,160.15,12,Winter,Wednesday,False
+ORD-000285,2023-12-06,Clothing,Dumbbells,77.54,9,30,Female,Mobile App,Credit Card,True,4.6,49.86,648.0,12,Winter,Wednesday,False
+ORD-000476,2023-12-07,Electronics,Kitchen Appliance,65.6,9,42,Male,Online,Credit Card,False,4.4,0.0,590.4,12,Winter,Thursday,False
+ORD-000404,2023-12-08,Sports,Cookbook,50.31,9,45,Male,Online,Credit Card,False,2.7,0.0,452.79,12,Winter,Friday,False
+ORD-000394,2023-12-08,Beauty,Jacket,28.47,4,30,Female,In-Store,Debit Card,False,4.5,0.0,113.88,12,Winter,Friday,False
+ORD-000364,2023-12-08,Electronics,Nail Polish,37.75,8,18,Female,Mobile App,Credit Card,False,5.0,0.0,302.0,12,Winter,Friday,False
+ORD-000211,2023-12-09,Books,Sneakers,29.06,8,55,Male,Online,Debit Card,True,4.6,50.61,181.87,12,Winter,Saturday,True
+ORD-000020,2023-12-10,Electronics,Nail Polish,55.17,5,35,Male,Online,Credit Card,True,4.3,61.58,214.27,12,Winter,Sunday,True
+ORD-000099,2023-12-10,Beauty,Programming Book,67.53,4,55,Male,In-Store,Credit Card,True,5.0,39.9,230.22,12,Winter,Sunday,True
+ORD-000096,2023-12-11,Sports,Science Magazine,42.65,7,31,Female,In-Store,Debit Card,False,2.7,0.0,298.55,12,Winter,Monday,False
+ORD-000029,2023-12-11,Sports,Wireless Headphones,38.7,6,72,Female,Online,Credit Card,False,4.0,0.0,232.2,12,Winter,Monday,False
+ORD-000261,2023-12-12,Beauty,T-Shirt,7.53,3,18,Female,Online,Credit Card,False,4.4,0.0,22.59,12,Winter,Tuesday,False
+ORD-000136,2023-12-12,Books,Cookbook,28.1,9,35,Female,Mobile App,Credit Card,False,4.0,0.0,252.9,12,Winter,Tuesday,False
+ORD-000054,2023-12-12,Beauty,Bicycle,72.35,1,40,Female,In-Store,Cash,False,4.2,0.0,72.35,12,Winter,Tuesday,False
+ORD-000243,2023-12-12,Electronics,Sneakers,34.85,4,42,Female,In-Store,Credit Card,False,4.5,0.0,139.4,12,Winter,Tuesday,False
+ORD-000438,2023-12-12,Books,Programming Book,40.78,2,33,Female,In-Store,Credit Card,False,4.7,0.0,81.56,12,Winter,Tuesday,False
+ORD-000172,2023-12-14,Clothing,Makeup Kit,35.21,9,41,Female,In-Store,Credit Card,True,3.1,47.15,269.74,12,Winter,Thursday,False
+ORD-000340,2023-12-15,Electronics,Gaming Mouse,27.03,1,53,Male,Mobile App,Credit Card,False,4.0,0.0,27.03,12,Winter,Friday,False
+ORD-000002,2023-12-15,Electronics,Kitchen Appliance,18.67,7,37,Female,Online,Credit Card,False,1.8,0.0,130.69,12,Winter,Friday,False
+ORD-000239,2023-12-15,Clothing,Gaming Mouse,6.07,6,31,Male,In-Store,Debit Card,False,2.8,0.0,36.42,12,Winter,Friday,False
+ORD-000291,2023-12-15,Sports,Bicycle,91.41,3,71,Female,Online,PayPal,False,3.3,0.0,274.23,12,Winter,Friday,False
+ORD-000461,2023-12-15,Books,Kitchen Appliance,24.56,5,56,Female,Online,Credit Card,False,3.7,0.0,122.8,12,Winter,Friday,False
+ORD-000421,2023-12-16,Electronics,Kitchen Appliance,9.69,6,54,Male,Online,PayPal,False,3.6,0.0,58.14,12,Winter,Saturday,True
+ORD-000075,2023-12-17,Electronics,Running Shoes,84.0,3,52,Male,Online,Credit Card,True,4.2,20.84,231.16,12,Winter,Sunday,True
+ORD-000246,2023-12-18,Electronics,Bicycle,23.53,7,39,Male,Online,Debit Card,False,3.8,0.0,164.71,12,Winter,Monday,False
+ORD-000140,2023-12-18,Books,Yoga Mat,109.82,5,41,Male,Mobile App,Credit Card,True,4.6,111.78,437.32,12,Winter,Monday,False
+ORD-000390,2023-12-20,Electronics,Tennis Racket,9.53,4,47,Male,In-Store,PayPal,False,3.0,0.0,38.12,12,Winter,Wednesday,False
+ORD-000377,2023-12-21,Sports,Makeup Kit,63.28,8,54,Female,Mobile App,Debit Card,False,5.0,0.0,506.24,12,Winter,Thursday,False
+ORD-000423,2023-12-21,Home & Garden,Tennis Racket,34.74,1,68,Male,Mobile App,Cash,False,3.9,0.0,34.74,12,Winter,Thursday,False
+ORD-000482,2023-12-23,Beauty,Furniture,18.27,1,42,Female,Mobile App,Debit Card,False,3.7,0.0,18.27,12,Winter,Saturday,True
+ORD-000181,2023-12-25,Beauty,Running Shoes,22.38,9,44,Other,Mobile App,Credit Card,False,4.3,0.0,201.42,12,Winter,Monday,False
+ORD-000132,2023-12-25,Electronics,History Book,50.28,7,44,Female,In-Store,PayPal,False,4.5,0.0,351.96,12,Winter,Monday,False
+ORD-000359,2023-12-26,Clothing,Laptop Pro,18.91,2,30,Female,In-Store,Credit Card,False,3.9,0.0,37.82,12,Winter,Tuesday,False
+ORD-000122,2023-12-26,Electronics,Jacket,51.52,3,44,Male,In-Store,Credit Card,True,2.4,13.0,141.56,12,Winter,Tuesday,False
+ORD-000014,2023-12-26,Electronics,Furniture,75.52,1,20,Female,In-Store,Debit Card,True,4.5,7.87,67.65,12,Winter,Tuesday,False
+ORD-000063,2023-12-26,Clothing,Gaming Mouse,30.25,8,38,Male,Online,Credit Card,False,2.2,0.0,242.0,12,Winter,Tuesday,False
+ORD-000252,2023-12-26,Electronics,Jeans,38.76,3,18,Female,In-Store,PayPal,True,5.0,11.71,104.57,12,Winter,Tuesday,False
+ORD-000038,2023-12-30,Clothing,Dumbbells,20.25,2,42,Male,In-Store,Cash,True,2.0,3.85,36.65,12,Winter,Saturday,True
+ORD-000313,2023-12-31,Electronics,Science Magazine,170.6,7,48,Male,In-Store,Cash,False,5.0,0.0,1194.2,12,Winter,Sunday,True
+ORD-000420,2023-12-31,Sports,Science Magazine,12.94,8,50,Male,Online,PayPal,False,3.7,0.0,103.52,12,Winter,Sunday,True
