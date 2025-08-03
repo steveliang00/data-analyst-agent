@@ -20,7 +20,7 @@ class Config:
     # Alternative models for different tasks
     MISTRAL_FAST_MODEL: str = os.getenv("MISTRAL_FAST_MODEL", "mistral-small-latest")
     MISTRAL_REASONING_MODEL: str = os.getenv("MISTRAL_REASONING_MODEL", "magistral-small-latest")
-    
+    MISTRAL_CODE_MODEL: str = os.getenv("MISTRAL_CODE_MODEL", "devstral-small-latest")
     # Agent Configuration
     MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "10"))
     VERBOSE: bool = os.getenv("VERBOSE", "false").lower() == "true"
@@ -44,21 +44,21 @@ class Config:
         model_configs = {
             "default": {
                 "model": cls.MISTRAL_MODEL,
-                "temperature": 0.5,
-                "max_tokens": 2000,
+                "temperature": 0.7,
+                "max_tokens": 3000,
             },
             "fast": {
                 "model": cls.MISTRAL_FAST_MODEL,
-                "temperature": 0.5,
-                "max_tokens": 1000,
+                "temperature": 0.7,
+                "max_tokens": 3000,
             },
             "reasoning": {
                 "model": cls.MISTRAL_REASONING_MODEL,
-                "temperature": 0.5,
+                "temperature": 0.7,
                 "max_tokens": 3000,
             },
             "code": {
-                "model": cls.MISTRAL_MODEL,
+                "model": cls.MISTRAL_CODE_MODEL,
                 "temperature": 0.5,
                 "max_tokens": 1500,
             }
