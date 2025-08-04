@@ -242,7 +242,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
             
         except Exception as e:
             return {
-                "response": f"Error occurred: {str(e)}, failed at {event.keys()[0]}",
+                "response": f"Error occurred: {str(e)}",
                 "state": initial_state,
                 "events": [],
                 "success": False,
