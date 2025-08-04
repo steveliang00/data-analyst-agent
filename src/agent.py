@@ -169,7 +169,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
         
         return updated_state
     
-    def _should_continue(self, state: AgentState) -> str:
+    def _should_continue(self, state: AgentState) -> str: 
         """Decide whether to continue with tools or end."""
         
         last_message = state["messages"][-1]
@@ -181,34 +181,6 @@ Always use the tools to perform actual data operations. Never assume or make up 
         # Otherwise, end the conversation
         return "end"
     
-    def process_tool_results(self, state: AgentState) -> Dict[str, Any]:
-        """Process tool results and update state accordingly."""
-        
-        # Get the last tool message
-        if not state["messages"]:
-            return state
-        
-        last_message = state["messages"][-1]
-        
-        # Update state based on tool results
-        updates = {}
-        
-        # Check if a dataframe was loaded or updated
-        if hasattr(last_message, 'content'):
-            try:
-                # Parse tool results to update dataframe
-                # This is a simplified version - in practice, you'd want more robust parsing
-                content = str(last_message.content)
-                if "dataframe" in content and "success" in content:
-                    # Tool execution was successful
-                    updates["error"] = None
-                elif "error" in content:
-                    # Tool execution failed
-                    updates["error"] = content
-            except:
-                pass
-        
-        return updates
     
     def run(self, user_input: str, csv_file_path: str = None, thread_id: str = "default") -> Dict[str, Any]:
         """
@@ -270,7 +242,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
             
         except Exception as e:
             return {
-                "response": f"Error occurred: {str(e)}",
+                "response": f"Error occurred: {str(e)}, failed at {event.keys()[0]}",
                 "state": initial_state,
                 "events": [],
                 "success": False,
