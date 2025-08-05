@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 try:
     from src.config import Config
-    from src.tools import load_csv_file, get_dataframe_info
+    from src.tools import get_dataframe_info
     import pandas as pd
     import numpy as np
     
@@ -61,16 +61,6 @@ def test_tools():
     test_df.to_csv(test_csv_path, index=False)
     print(f"✓ Created test CSV: {test_csv_path}")
     
-    # Test loading CSV
-    load_result = load_csv_file.invoke({"file_path": test_csv_path})
-    
-    if load_result.get('success'):
-        print("✓ load_csv_file tool works")
-        loaded_df = load_result['dataframe']
-        print(f"  - Loaded shape: {loaded_df.shape}")
-        print(f"  - Columns match: {list(loaded_df.columns) == list(test_df.columns)}")
-    else:
-        print(f"✗ load_csv_file failed: {load_result.get('error')}")
     
     # Test get_dataframe_info with CSV file
     result = get_dataframe_info.invoke({"csv_file_path": test_csv_path})

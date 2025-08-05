@@ -76,7 +76,6 @@ class SafePackageManager:
         
         # Add safe built-ins
         safe_globals['__builtins__'] = cls._get_safe_builtins()
-        safe_globals['__import__'] = cls.safe_import
         
         return safe_globals
     
@@ -91,6 +90,7 @@ class SafePackageManager:
             'abs': abs, 'round': round, 'print': print,
             'sorted': sorted, 'reversed': reversed, 'any': any,
             'all': all, 'map': map, 'filter': filter,
+            '__import__': cls.safe_import,  # ← Add __import__ here!
         }
 
 class AnalystCodeExecutor:
