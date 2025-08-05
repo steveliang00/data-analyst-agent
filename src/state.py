@@ -19,9 +19,6 @@ class AgentState(TypedDict):
     # CSV metadata
     csv_info: Dict[str, Any]
     
-    # Analysis results
-    analysis_results: Dict[str, Any]
-    
     # Current task/instruction
     current_task: str
     

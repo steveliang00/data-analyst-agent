@@ -199,7 +199,6 @@ Always use the tools to perform actual data operations. Never assume or make up 
             "current_task": user_input,
             "csv_file_path": csv_file_path,
             "csv_info": {},
-            "analysis_results": {},
             "error": None,
             "generated_code": [],
             "csv_loaded": False
