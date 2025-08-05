@@ -117,6 +117,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
         memory = MemorySaver()
         return workflow.compile(checkpointer=memory)
     
+    # Nodes
     def _agent_node(self, state: AgentState) -> Dict[str, Any]:
         """Main agent reasoning node."""
         
@@ -166,7 +167,8 @@ Always use the tools to perform actual data operations. Never assume or make up 
         }
         
         return updated_state
-    
+
+    # Edges 
     def _should_continue(self, state: AgentState) -> str: 
         """Decide whether to continue with tools or end."""
         
@@ -179,7 +181,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
         # Otherwise, end the conversation
         return "end"
     
-    
+    # Run Graph
     def run(self, user_input: str, csv_file_path: str = None, thread_id: str = "default") -> Dict[str, Any]:
         """
         Run the agent with user input.
