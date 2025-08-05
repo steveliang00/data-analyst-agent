@@ -22,16 +22,14 @@ class SafePackageManager:
         'numpy': 'np',
         
         # Visualization  
-        'matplotlib.pyplot': 'plt',
+        'matplotlib': None,
         'seaborn': 'sns',
-        'plotly.express': 'px',
-        'plotly.graph_objects': 'go',
+        'plotly': None,
         
         # Statistics & ML
-        'scipy.stats': 'stats',
-        'sklearn.metrics': 'metrics',
-        'sklearn.preprocessing': 'preprocessing',
-        
+        'scipy': None,  # Allow all scipy submodules
+        'sklearn': None,  # Allow all sklearn submodules
+        'xgb': None,
         # Utilities
         'datetime': 'dt',
         'math': 'math',
@@ -52,16 +50,21 @@ class SafePackageManager:
             pass
         elif fromlist:
             # Handle "from X import Y" style imports
-            # Check if any of the requested submodules are allowed
-            allowed = False
-            for submodule in fromlist:
-                full_name = f"{name}.{submodule}"
-                if full_name in cls.SAFE_PACKAGES:
-                    allowed = True
-                    break
-            
-            if not allowed:
-                raise ImportError(f"Import of '{name}' with fromlist {fromlist} is not allowed")
+            # First check if the base package is in SAFE_PACKAGES (allows all submodules)
+            if name in cls.SAFE_PACKAGES:
+                # Base package is allowed, so allow any submodule imports
+                pass  
+            else:
+                # Check if any specific submodules are explicitly allowed
+                allowed = False
+                for submodule in fromlist:
+                    full_name = f"{name}.{submodule}"
+                    if full_name in cls.SAFE_PACKAGES:
+                        allowed = True
+                        break
+                
+                if not allowed:
+                    raise ImportError(f"Import of '{name}' with fromlist {fromlist} is not allowed")
         else:
             raise ImportError(f"Import of '{name}' is not allowed")
         
@@ -81,6 +84,12 @@ class SafePackageManager:
         
         # Import and add safe packages
         for module_path, alias in cls.SAFE_PACKAGES.items():
+            # Skip base packages that are meant for submodule imports only
+            # These have alias=None and are single words (like 'scipy', 'sklearn')
+            if alias is None and '.' not in module_path:
+                # This is a base package for submodule imports - don't pre-import
+                continue
+                
             try:
                 module = __import__(module_path, fromlist=[''])
                 key = alias if alias else module_path.split('.')[-1]
@@ -153,8 +162,7 @@ class AnalystCodeExecutor:
         except Exception as e:
             result['error'] = f"""Your solution failed the code execution test: {e}) 
             Reflect on this error and your prior attempt to solve the problem. 
-            (1) State what you think went wrong with the prior solution and 
-            (2) try to solve this problem again."""
+            (1) State what you think went wrong with the prior solution."""
             result['output'] = stdout_capture.getvalue()
         
         if stderr_capture.getvalue():
