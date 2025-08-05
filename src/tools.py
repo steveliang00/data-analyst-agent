@@ -136,10 +136,10 @@ class AnalystCodeExecutor:
             result['output'] = stdout_capture.getvalue()
             
         except Exception as e:
-            result['error'] = f"Your solution failed the code execution test: {e}) 
+            result['error'] = f"""Your solution failed the code execution test: {e}) 
             Reflect on this error and your prior attempt to solve the problem. 
             (1) State what you think went wrong with the prior solution and 
-            (2) try to solve this problem again."
+            (2) try to solve this problem again."""
             result['output'] = stdout_capture.getvalue()
         
         if stderr_capture.getvalue():
