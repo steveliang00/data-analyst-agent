@@ -46,8 +46,23 @@ class SafePackageManager:
     def safe_import(cls, name, globals=None, locals=None, fromlist=(), level=0):
         """Custom import function that only allows safe packages"""
         
-        # Check if the package is in our allowlist
-        if name not in cls.SAFE_PACKAGES:
+        # Check if the exact package is in our allowlist
+        if name in cls.SAFE_PACKAGES:
+            # Direct import is allowed
+            pass
+        elif fromlist:
+            # Handle "from X import Y" style imports
+            # Check if any of the requested submodules are allowed
+            allowed = False
+            for submodule in fromlist:
+                full_name = f"{name}.{submodule}"
+                if full_name in cls.SAFE_PACKAGES:
+                    allowed = True
+                    break
+            
+            if not allowed:
+                raise ImportError(f"Import of '{name}' with fromlist {fromlist} is not allowed")
+        else:
             raise ImportError(f"Import of '{name}' is not allowed")
         
         # Import the package safely
