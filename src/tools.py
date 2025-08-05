@@ -196,7 +196,7 @@ def execute_pandas_code(code: str, csv_file_path: str) -> Dict[str, Any]:
     
     Args:
         
-        code: Python code to execute (should work with 'df' variable)
+        code: Python code to execute 
         csv_file_path: Path to the CSV file to load and work with
     
     Returns:
