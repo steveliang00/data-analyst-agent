@@ -259,10 +259,7 @@ def get_dataframe_info(csv_file_path: str) -> Dict[str, Any]:
         if len(numeric_cols) > 0:
             info['numeric_summary'] = dataframe[numeric_cols].describe().to_dict()
         
-        # Sample data
-        info['head'] = dataframe.head().to_dict('records')
-        info['tail'] = dataframe.tail().to_dict('records')
-        
+
         # Unique value counts for categorical columns
         categorical_cols = dataframe.select_dtypes(include=['object']).columns
         info['categorical_info'] = {}
