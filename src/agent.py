@@ -11,7 +11,7 @@ from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
 
 from .state import AgentState
-from .tools import load_csv_file, execute_pandas_code, get_dataframe_info, suggest_analysis_steps
+from .tools import execute_pandas_code, get_dataframe_info, suggest_analysis_steps
 from .config import Config
 
 
@@ -39,7 +39,6 @@ class DataAnalystAgent:
         
         # Tools available to the agent
         self.tools = [
-            load_csv_file,
             execute_pandas_code,
             get_dataframe_info,
             suggest_analysis_steps
