@@ -29,7 +29,7 @@ class SafePackageManager:
         # Statistics & ML
         'scipy': None,  # Allow all scipy submodules
         'sklearn': None,  # Allow all sklearn submodules
-        'xgb': None,
+        'xgboost': None,
         # Utilities
         'datetime': 'dt',
         'math': 'math',
@@ -41,30 +41,41 @@ class SafePackageManager:
         'string': 'string',
     }
     @classmethod
+    def _is_package_allowed(cls, package_name):
+        """Check if a package or any of its parent packages are allowed"""
+        # Check exact match first
+        if package_name in cls.SAFE_PACKAGES:
+            return True
+        
+        # Check parent packages
+        parts = package_name.split('.')
+        for i in range(len(parts) - 1, 0, -1):
+            parent = '.'.join(parts[:i])
+            if parent in cls.SAFE_PACKAGES:
+                return True
+        
+        return False
+    
+    @classmethod
     def safe_import(cls, name, globals=None, locals=None, fromlist=(), level=0):
         """Custom import function that only allows safe packages"""
         
-        # Check if the exact package is in our allowlist
-        if name in cls.SAFE_PACKAGES:
-            # Direct import is allowed
+        # Check if the package or any parent package is allowed
+        if cls._is_package_allowed(name):
+            # Package or parent is allowed
             pass
         elif fromlist:
             # Handle "from X import Y" style imports
-            # First check if the base package is in SAFE_PACKAGES (allows all submodules)
-            if name in cls.SAFE_PACKAGES:
-                # Base package is allowed, so allow any submodule imports
-                pass  
-            else:
-                # Check if any specific submodules are explicitly allowed
-                allowed = False
-                for submodule in fromlist:
-                    full_name = f"{name}.{submodule}"
-                    if full_name in cls.SAFE_PACKAGES:
-                        allowed = True
-                        break
-                
-                if not allowed:
-                    raise ImportError(f"Import of '{name}' with fromlist {fromlist} is not allowed")
+            # Check if any specific submodules are explicitly allowed
+            allowed = False
+            for submodule in fromlist:
+                full_name = f"{name}.{submodule}"
+                if full_name in cls.SAFE_PACKAGES:
+                    allowed = True
+                    break
+            
+            if not allowed:
+                raise ImportError(f"Import of '{name}' with fromlist {fromlist} is not allowed")
         else:
             raise ImportError(f"Import of '{name}' is not allowed")
         
