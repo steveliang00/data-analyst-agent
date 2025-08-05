@@ -44,22 +44,22 @@ class Config:
         model_configs = {
             "default": {
                 "model": cls.MISTRAL_MODEL,
-                "temperature": 0.7,
+                "temperature": 0.3,
                 "max_tokens": 3000,
             },
             "fast": {
                 "model": cls.MISTRAL_FAST_MODEL,
-                "temperature": 0.7,
+                "temperature": 0.3,
                 "max_tokens": 3000,
             },
             "reasoning": {
                 "model": cls.MISTRAL_REASONING_MODEL,
-                "temperature": 0.7,
+                "temperature": 0.5,
                 "max_tokens": 3000,
             },
             "code": {
                 "model": cls.MISTRAL_CODE_MODEL,
-                "temperature": 0.7,
+                "temperature": 0.3,
                 "max_tokens": 3000,
             }
         }

@@ -11,7 +11,75 @@ import sys
 from contextlib import redirect_stdout, redirect_stderr
 
 
-class PandasCodeExecutor:
+
+# In your tools.py
+class SafePackageManager:
+    """Manages allowed packages for code execution"""
+    
+    SAFE_PACKAGES = {
+        # Data manipulation
+        'pandas': 'pd',
+        'numpy': 'np',
+        
+        # Visualization  
+        'matplotlib.pyplot': 'plt',
+        'seaborn': 'sns',
+        'plotly.express': 'px',
+        'plotly.graph_objects': 'go',
+        
+        # Statistics & ML
+        'scipy.stats': 'stats',
+        'sklearn.metrics': 'metrics',
+        'sklearn.preprocessing': 'preprocessing',
+        
+        # Utilities
+        'datetime': 'dt',
+        'math': 'math',
+        'json': 'json',
+        'collections': None,  # Import full module
+        're': 're',
+        
+        # String processing
+        'string': 'string',
+    }
+    
+    @classmethod
+    def get_safe_globals(cls, df, original_df):
+        """Build safe globals with allowed packages"""
+        safe_globals = {
+            'df': df,
+            'original_df': original_df,
+        }
+        
+        # Import and add safe packages
+        for module_path, alias in cls.SAFE_PACKAGES.items():
+            try:
+                module = __import__(module_path, fromlist=[''])
+                key = alias if alias else module_path.split('.')[-1]
+                safe_globals[key] = module
+            except ImportError:
+                # Package not available - skip silently
+                continue
+        
+        # Add safe built-ins
+        safe_globals['__builtins__'] = cls._get_safe_builtins()
+        
+        return safe_globals
+    
+    @classmethod
+    def _get_safe_builtins(cls):
+        """Return dictionary of safe built-in functions"""
+        return {
+            'len': len, 'str': str, 'int': int, 'float': float,
+            'bool': bool, 'list': list, 'dict': dict, 'set': set,
+            'tuple': tuple, 'range': range, 'enumerate': enumerate,
+            'zip': zip, 'sum': sum, 'max': max, 'min': min,
+            'abs': abs, 'round': round, 'print': print,
+            'sorted': sorted, 'reversed': reversed, 'any': any,
+            'all': all, 'map': map, 'filter': filter,
+        }
+
+class AnalystCodeExecutor:
     """Safe executor for pandas code with the current dataframe."""
     
     def __init__(self, dataframe: pd.DataFrame):
@@ -21,33 +89,10 @@ class PandasCodeExecutor:
     def execute_code(self, code: str) -> Dict[str, Any]:
         """Execute pandas code safely and return results."""
         
-        # Create a safe execution environment
-        safe_globals = {
-            'pd': pd,
-            'np': np,
-            'df': self.df,
-            'original_df': self.original_df,
-            '__builtins__': {
-                'len': len,
-                'str': str,
-                'int': int,
-                'float': float,
-                'bool': bool,
-                'list': list,
-                'dict': dict,
-                'set': set,
-                'tuple': tuple,
-                'range': range,
-                'enumerate': enumerate,
-                'zip': zip,
-                'sum': sum,
-                'max': max,
-                'min': min,
-                'abs': abs,
-                'round': round,
-                'print': print,
-            }
-        }
+        # Get safe execution environment with allowed packages
+        safe_globals = SafePackageManager.get_safe_globals(self.df, self.original_df)
+        # Capture original keys BEFORE execution
+        original_keys = set(safe_globals.keys())
         
         # Capture output
         stdout_capture = io.StringIO()
@@ -60,7 +105,6 @@ class PandasCodeExecutor:
             'dataframe': None,
             'variables': {}
         }
-        
         try:
             with redirect_stdout(stdout_capture), redirect_stderr(stderr_capture):
                 # Execute the code
@@ -73,7 +117,7 @@ class PandasCodeExecutor:
                 
                 # Capture any new variables created
                 for key, value in safe_globals.items():
-                    if key not in ['pd', 'np', 'df', 'original_df', '__builtins__']:
+                    if key not in original_keys:
                         if isinstance(value, (str, int, float, bool, list, dict)):
                             result['variables'][key] = value
                         elif hasattr(value, 'describe'):  # For pandas objects
@@ -92,43 +136,43 @@ class PandasCodeExecutor:
         return result
 
 
-@tool
-def load_csv_file(file_path: str, **kwargs) -> Dict[str, Any]:
-    """
-    Load a CSV file into a pandas DataFrame.
+# @tool
+# def load_csv_file(file_path: str, **kwargs) -> Dict[str, Any]:
+#     """
+#     Load a CSV file into a pandas DataFrame.
     
-    Args:
-        file_path: Path to the CSV file
-        **kwargs: Additional arguments for pd.read_csv (e.g., sep=',', encoding='utf-8')
+#     Args:
+#         file_path: Path to the CSV file
+#         **kwargs: Additional arguments for pd.read_csv (e.g., sep=',', encoding='utf-8')
     
-    Returns:
-        Dictionary with success status, dataframe info, and error if any
-    """
-    try:
-        df = pd.read_csv(file_path, **kwargs)
+#     Returns:
+#         Dictionary with success status, dataframe info, and error if any
+#     """
+#     try:
+#         df = pd.read_csv(file_path, **kwargs)
         
-        info = {
-            'shape': df.shape,
-            'columns': df.columns.tolist(),
-            'dtypes': df.dtypes.to_dict(),
-            'memory_usage': df.memory_usage(deep=True).sum(),
-            'null_counts': df.isnull().sum().to_dict(),
-            'sample_data': df.head().to_dict('records')
-        }
+#         info = {
+#             'shape': df.shape,
+#             'columns': df.columns.tolist(),
+#             'dtypes': df.dtypes.to_dict(),
+#             'memory_usage': df.memory_usage(deep=True).sum(),
+#             'null_counts': df.isnull().sum().to_dict(),
+#             'sample_data': df.head().to_dict('records')
+#         }
         
-        return {
-            'success': True,
-            'dataframe': df,
-            'info': info,
-            'message': f"Successfully loaded CSV with shape {df.shape}"
-        }
+#         return {
+#             'success': True,
+#             'dataframe': df,
+#             'info': info,
+#             'message': f"Successfully loaded CSV with shape {df.shape}"
+#         }
         
-    except Exception as e:
-        return {
-            'success': False,
-            'error': str(e),
-            'message': f"Failed to load CSV: {str(e)}"
-        }
+#     except Exception as e:
+#         return {
+#             'success': False,
+#             'error': str(e),
+#             'message': f"Failed to load CSV: {str(e)}"
+#         }
 
 
 @tool
@@ -137,6 +181,7 @@ def execute_pandas_code(code: str, csv_file_path: str) -> Dict[str, Any]:
     Execute pandas code on the current dataframe.
     
     Args:
+        
         code: Python code to execute (should work with 'df' variable)
         csv_file_path: Path to the CSV file to load and work with
     
@@ -153,7 +198,7 @@ def execute_pandas_code(code: str, csv_file_path: str) -> Dict[str, Any]:
     try:
         # Load the dataframe
         current_dataframe = pd.read_csv(csv_file_path)
-        executor = PandasCodeExecutor(current_dataframe)
+        executor = AnalystCodeExecutor(current_dataframe)
     except Exception as e:
         return {
             'success': False,

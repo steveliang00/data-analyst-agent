@@ -81,7 +81,6 @@ When working with data:
 6. Provide clear summaries and insights
 
 Available tools:
-- load_csv_file: Load a CSV file into a pandas DataFrame
 - execute_pandas_code: Execute pandas code on the current dataframe
 - get_dataframe_info: Get comprehensive information about the dataframe
 - suggest_analysis_steps: Get suggested analysis steps based on data and question
