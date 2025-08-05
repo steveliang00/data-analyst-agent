@@ -42,8 +42,21 @@ class SafePackageManager:
         # String processing
         'string': 'string',
     }
-    
     @classmethod
+    def safe_import(cls, name, globals=None, locals=None, fromlist=(), level=0):
+        """Custom import function that only allows safe packages"""
+        
+        # Check if the package is in our allowlist
+        if name not in cls.SAFE_PACKAGES:
+            raise ImportError(f"Import of '{name}' is not allowed")
+        
+        # Import the package safely
+        try:
+            return __import__(name, globals, locals, fromlist, level)
+        except ImportError as e:
+            raise ImportError(f"Package '{name}' is not available: {e}")
+    @classmethod
+    
     def get_safe_globals(cls, df, original_df):
         """Build safe globals with allowed packages"""
         safe_globals = {
@@ -63,6 +76,7 @@ class SafePackageManager:
         
         # Add safe built-ins
         safe_globals['__builtins__'] = cls._get_safe_builtins()
+        safe_globals['__import__'] = cls.safe_import
         
         return safe_globals
     
