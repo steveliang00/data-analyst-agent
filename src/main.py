@@ -33,7 +33,12 @@ def validate_csv_file(file_path: str) -> bool:
     
     # Check file size
     file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
-    max_size = os.getenv("MAX_CSV_SIZE_MB")
+    try:
+        max_size_str = os.getenv("MAX_CSV_SIZE_MB", "100")  # Default to 100MB if not set
+        max_size = float(max_size_str)
+    except ValueError:
+        print(f"Warning: Invalid MAX_CSV_SIZE_MB value '{max_size_str}'. Using default of 100MB.")
+        max_size = 100.0
     
     if file_size_mb > max_size:
         print(f"Warning: CSV file is {file_size_mb:.1f}MB, which exceeds the recommended maximum of {max_size}MB.")
