@@ -11,7 +11,7 @@ from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
 
-from .state import AgentState
+from .state import CodingAgentState
 from .tools import execute_pandas_code, get_dataframe_info, suggest_analysis_steps
 load_dotenv()
 
@@ -91,7 +91,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
         """Create the LangGraph workflow."""
         
         # Define the graph
-        workflow = StateGraph(AgentState)
+        workflow = StateGraph(CodingAgentState)
         
         # Add nodes
         workflow.add_node("agent", self._agent_node)
@@ -118,7 +118,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
         return workflow.compile(checkpointer=memory)
     
     # Nodes
-    def _agent_node(self, state: AgentState) -> Dict[str, Any]:
+    def _agent_node(self, state: CodingAgentState) -> Dict[str, Any]:
         """Main agent reasoning node."""
         
         # This is handled below now
@@ -169,7 +169,7 @@ Always use the tools to perform actual data operations. Never assume or make up 
         return updated_state
 
     # Edges 
-    def _should_continue(self, state: AgentState) -> str: 
+    def _should_continue(self, state: CodingAgentState) -> str: 
         """Decide whether to continue with tools or end."""
         
         last_message = state["messages"][-1]
