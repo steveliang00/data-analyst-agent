@@ -12,7 +12,7 @@ from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
 
 from .state import CodingAgentState
-from .tools import execute_pandas_code, get_dataframe_info, suggest_analysis_steps
+from .tools import execute_python_code, get_dataframe_info, suggest_analysis_steps
 from .prompt_manager import PromptManager
 load_dotenv()
 
@@ -37,7 +37,7 @@ class CodingAgent:
         
         # Tools available to the agent
         self.tools = [
-            execute_pandas_code,
+            execute_python_code,
             get_dataframe_info,
             suggest_analysis_steps
         ]

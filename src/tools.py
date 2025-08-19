@@ -222,9 +222,9 @@ class AnalystCodeExecutor:
 
 
 @tool
-def execute_pandas_code(code: str, csv_file_path: str) -> Dict[str, Any]:
+def execute_python_code(code: str, csv_file_path: str) -> Dict[str, Any]:
     """
-    Execute pandas code on the current dataframe.
+    Execute python code on the current dataframe.
     
     Args:
         

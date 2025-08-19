@@ -28,7 +28,7 @@ system_prompt: |
   - If you encounter restrictions to using tools or importing libraries, stop calling tools and let user know
 
   Available tools:
-  - execute_pandas_code: Execute pandas code on the current dataframe
+  - execute_python_code: Execute pandas code on the current dataframe
   - get_dataframe_info: Get comprehensive information about the dataframe
   - suggest_analysis_steps: Get suggested analysis steps based on data and question
 
