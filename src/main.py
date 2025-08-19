@@ -8,8 +8,7 @@ import sys
 from typing import Optional
 from pathlib import Path
 
-from .agent import DataAnalystAgent
-from .config import Config
+from .coding_agent import CodingAgent
 
 
 def print_banner():
@@ -34,7 +33,7 @@ def validate_csv_file(file_path: str) -> bool:
     
     # Check file size
     file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
-    max_size = Config.MAX_CSV_SIZE_MB
+    max_size = os.getenv("MAX_CSV_SIZE_MB")
     
     if file_size_mb > max_size:
         print(f"Warning: CSV file is {file_size_mb:.1f}MB, which exceeds the recommended maximum of {max_size}MB.")
@@ -45,7 +44,7 @@ def validate_csv_file(file_path: str) -> bool:
     return True
 
 
-def interactive_mode(agent: DataAnalystAgent, csv_file: Optional[str] = None):
+def interactive_mode(agent: CodingAgent, csv_file: Optional[str] = None):
     """Run the agent in interactive mode."""
     print("Interactive mode started. Type 'quit' or 'exit' to stop.")
     print("Type 'help' for available commands.")
@@ -132,7 +131,7 @@ The agent will execute pandas code to analyze your data and provide insights.
     print(help_text)
 
 
-def single_query_mode(agent: DataAnalystAgent, query: str, csv_file: Optional[str] = None):
+def single_query_mode(agent: CodingAgent, query: str, csv_file: Optional[str] = None):
     """Run a single query and exit."""
     print(f"Query: {query}")
     if csv_file:
@@ -185,7 +184,7 @@ def main():
     # Initialize the agent
     try:
         print("Initializing agent...")
-        agent = DataAnalystAgent()
+        agent = CodingAgent()
         print("Agent initialized successfully!\n")
     except Exception as e:
         print(f"Failed to initialize agent: {str(e)}")

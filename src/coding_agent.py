@@ -17,7 +17,7 @@ load_dotenv()
 
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 MISTRAL_MODEL = os.getenv("MISTRAL_MODEL")
-class DataAnalystAgent:
+class CodingAgent:
     """LangGraph-based data analyst agent using Mistral AI."""
     
     def __init__(self):

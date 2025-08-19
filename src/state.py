@@ -30,3 +30,27 @@ class AgentState(TypedDict):
     
     # Flag to indicate if CSV is loaded
     csv_loaded: bool
+
+class CodingAgentState(TypedDict):
+    """State for the coding agent."""
+    
+    # Message history
+    messages: Annotated[List[BaseMessage], add_messages]
+    
+    # CSV file path (instead of storing the dataframe directly)
+    csv_file_path: Optional[str]
+    
+    # CSV metadata
+    csv_info: Dict[str, Any]
+    
+    # Current task/instruction
+    current_task: str
+    
+    # Error state
+    error: Optional[str]
+    
+    # Generated code for transparency
+    generated_code: List[str]
+    
+    # Flag to indicate if CSV is loaded
+    csv_loaded: bool
