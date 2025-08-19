@@ -1,0 +1,12 @@
+agents:
+  coding_agent:
+    name: "Data Coding Agent"
+    description: "Expert at writing and executing pandas code for data analysis"
+    prompt_file: "coding_agent.yaml"
+    tools: ["execute_pandas_code", "get_dataframe_info", "suggest_analysis_steps"]
+    
+  analysis_agent:
+    name: "Statistical Analysis Agent"
+    description: "Expert at performing in-depth statistical analysis and pattern detection"
+    prompt_file: "analysis_agent.yaml"
+    tools: ["statistical_analysis", "correlation_analysis", "hypothesis_testing"]

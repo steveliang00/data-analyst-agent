@@ -13,6 +13,7 @@ from langgraph.checkpoint.memory import MemorySaver
 
 from .state import CodingAgentState
 from .tools import execute_pandas_code, get_dataframe_info, suggest_analysis_steps
+from .prompt_manager import PromptManager
 load_dotenv()
 
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
@@ -20,12 +21,12 @@ MISTRAL_MODEL = os.getenv("MISTRAL_MODEL")
 class CodingAgent:
     """LangGraph-based data analyst agent using Mistral AI."""
     
-    def __init__(self):
+    def __init__(self, agent_type: str = "coding_agent"):
         """Initialize the agent with tools and LLM."""
         
-        # Validate configuration
-        if not self.config.validate():
-            raise ValueError("Invalid configuration. Please check your API keys.")
+        # Initialize prompt manager
+        self.prompt_manager = PromptManager()
+        self.agent_type = agent_type
         
         # Initialize LLMs for different tasks
         self.llm = ChatMistralAI(
@@ -51,41 +52,8 @@ class CodingAgent:
         self.graph = self._create_graph()
     
     def _create_system_prompt(self) -> str:
-        """Create the system prompt for the agent."""
-        return """You are an expert data analyst agent. Your goal is to help users analyze CSV data using pandas.
-
-Key capabilities:
-1. Load and inspect CSV files
-2. Perform data wrangling and cleaning
-3. Generate insights and analysis
-4. Create visualizations when needed
-5. Write and execute pandas code safely
-
-Guidelines:
-- Always start by understanding the data structure and quality
-- Ask clarifying questions if the user's request is ambiguous
-- Provide clear explanations for your analysis steps
-- Show the code you're running for transparency
-- Handle errors gracefully and suggest alternatives
-- Focus on actionable insights
-
-When working with data:
-1. First load the CSV and inspect its structure
-2. Check for data quality issues (missing values, duplicates, etc.)
-3. Understand the user's specific question or analysis goal
-4. Break down complex tasks into smaller steps
-5. Execute analysis code step by step
-6. Provide clear summaries and insights
-
-Guardrails:
-- If you encounter restrictions to using tools or importing libraries, stop calling tools and let user know
-
-Available tools:
-- execute_pandas_code: Execute pandas code on the current dataframe
-- get_dataframe_info: Get comprehensive information about the dataframe
-- suggest_analysis_steps: Get suggested analysis steps based on data and question
-
-Always use the tools to perform actual data operations. Never assume or make up data analysis results."""
+        """Get the system prompt for the agent from the prompt manager."""
+        return self.prompt_manager.get_system_prompt(self.agent_type)
     
     def _create_graph(self) -> StateGraph:
         """Create the LangGraph workflow."""
