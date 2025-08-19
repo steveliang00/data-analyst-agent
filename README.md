@@ -9,7 +9,7 @@ A LangGraph-based data analyst agent that uses Mistral AI models to analyze CSV 
 - 🔄 **Interactive Conversations**: Maintains conversation history for complex analysis workflows
 - 🛠️ **Safe Code Execution**: Secure execution environment for pandas operations
 - 📈 **Comprehensive Analysis**: Automatic data profiling, quality checks, and insights
-- 🎯 **Task-Specific Models**: Different Mistral models optimized for different tasks
+
 
 ## Installation
 
@@ -43,13 +43,6 @@ Run the agent interactively to have a conversation about your data:
 python -m src.main --csv data/your_file.csv
 ```
 
-### Single Query Mode
-
-Run a single analysis query:
-
-```bash
-python -m src.main --csv data/your_file.csv --query "What are the main patterns in this dataset?"
-```
 
 ### Programmatic Usage
 
@@ -83,7 +76,7 @@ Agent: I'll load the CSV file and provide a comprehensive overview...
 You: What's the correlation between price and quantity sold?
 Agent: Let me calculate the correlation and analyze the relationship...
 
-[Executes pandas code and provides insights about the correlation]
+[Executes python code and provides insights about the correlation]
 ```
 
 ### Data Cleaning
@@ -104,22 +97,6 @@ Agent: I'll clean the data step by step...
 ## Configuration
 
 The agent can be configured through environment variables or the `.env` file:
-
-```bash
-# Required
-MISTRAL_API_KEY=your_mistral_api_key
-
-# Optional model selection
-MISTRAL_MODEL=mistral-large-latest
-MISTRAL_FAST_MODEL=mistral-small-latest
-MISTRAL_REASONING_MODEL=mistral-large-latest
-
-# Optional agent settings
-MAX_ITERATIONS=10
-VERBOSE=false
-MAX_CSV_SIZE_MB=100
-DEFAULT_SAMPLE_SIZE=1000
-```
 
 ## Agent Capabilities
 
@@ -144,11 +121,6 @@ The agent can perform various data analysis tasks:
 - Outlier detection
 - Group-by operations
 
-### Data Visualization Suggestions
-- Recommend appropriate chart types
-- Generate matplotlib/seaborn code
-- Create summary visualizations
-
 ### Data Transformation
 - Data cleaning operations
 - Feature engineering
@@ -157,29 +129,9 @@ The agent can perform various data analysis tasks:
 
 ## Architecture
 
-The agent is built using:
-
-- **LangGraph**: For workflow orchestration and state management
-- **Mistral AI**: For natural language understanding and code generation
-- **LangChain**: For tool integration and prompt management
-- **Pandas**: For data manipulation and analysis
 
 ### Component Overview
 
-- `src/agent.py` - Main agent class with LangGraph workflow
-- `src/tools.py` - Pandas tools for data operations
-- `src/state.py` - Agent state management
-- `src/config.py` - Configuration management
-- `src/main.py` - CLI interface
-
-## Error Handling
-
-The agent includes robust error handling:
-
-- Safe code execution environment
-- Graceful error recovery
-- Clear error messages and suggestions
-- Automatic retry mechanisms
 
 ## Contributing
 
