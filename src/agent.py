@@ -1,8 +1,9 @@
 """
 Main LangGraph agent for data analysis.
 """
-
-from typing import Dict, Any
+import os
+from dotenv import load_dotenv
+from typing import Dict, Any, Optional
 from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -12,15 +13,15 @@ from langgraph.checkpoint.memory import MemorySaver
 
 from .state import AgentState
 from .tools import execute_pandas_code, get_dataframe_info, suggest_analysis_steps
-from .config import Config
+load_dotenv()
 
-
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
+MISTRAL_MODEL = os.getenv("MISTRAL_MODEL")
 class DataAnalystAgent:
     """LangGraph-based data analyst agent using Mistral AI."""
     
     def __init__(self):
         """Initialize the agent with tools and LLM."""
-        self.config = Config()
         
         # Validate configuration
         if not self.config.validate():
@@ -28,13 +29,9 @@ class DataAnalystAgent:
         
         # Initialize LLMs for different tasks
         self.llm = ChatMistralAI(
-            api_key=self.config.MISTRAL_API_KEY,
-            **self.config.get_model_config("default")
-        )
-        
-        self.code_llm = ChatMistralAI(
-            api_key=self.config.MISTRAL_API_KEY,
-            **self.config.get_model_config("code")
+            api_key=MISTRAL_API_KEY,
+            model = MISTRAL_MODEL,
+            temperature = 0.7
         )
         
         # Tools available to the agent
